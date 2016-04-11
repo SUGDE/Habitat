@@ -1,0 +1,1208 @@
+﻿@using Sitecore.Foundation.Assets
+@using Sitecore.Foundation.Assets.Models
+@using Sitecore.Mvc.Analytics.Extensions
+@inherits WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="de-DE"> 
+<head>
+
+   
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <!--  SEO -->
+    <meta name="description" content="Sitecore Usergroup Deutschland">
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://194.145.122.12/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://194.145.122.12/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
+    <meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <meta name="msapplication-TileImage" content="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-270x270.png" />
+
+    <meta name="keywords" content="Sitecore Usergroup Deutschland">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta name="generator" content="WordPress 4.4.2" />
+
+
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://194.145.122.12/xmlrpc.php">
+
+    <link rel="shortcut icon" href="http://194.145.122.12/wp-content/uploads/2016/03/sudge-big-2.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://192.168.235.26/wp-content/themes/eventr/img/ipad-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://192.168.235.26/wp-content/themes/eventr/img/iphone-retina-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://192.168.235.26/wp-content/themes/eventr/img/ipad-retina-icon.png">
+      
+
+    <link rel="alternate" type="application/rss+xml" title="Sitecore Usergroup Deutschland &raquo; Feed" href="http://194.145.122.12/index.php/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Sitecore Usergroup Deutschland &raquo; Kommentar-Feed" href="http://194.145.122.12/index.php/comments/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Sitecore Usergroup Deutschland &raquo; Homepage Kommentar-Feed" href="http://194.145.122.12/index.php/homepage/feed/" />
+    <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/194.145.122.12\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='dashicons-css' href='http://194.145.122.12/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-jquery-ui-dialog-css' href='http://194.145.122.12/wp-includes/css/jquery-ui-dialog.min.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='http://194.145.122.12/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='http://194.145.122.12/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.6' type='text/css' media='all' />
+    
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {
+        }
+    </style>
+
+    <link rel='stylesheet' id='bootstrap-css' href='http://194.145.122.12/wp-content/themes/eventr/css/bootstrap.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='http://194.145.122.12/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='pixeden-icon-css' href='http://194.145.122.12/wp-content/themes/eventr/css/pe-icon-7-stroke.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='helper-css' href='http://194.145.122.12/wp-content/themes/eventr/css/helper.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='http://194.145.122.12/wp-content/themes/eventr/css/animate.min.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-css' href='http://194.145.122.12/wp-content/themes/eventr/css/font.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='countdown-css' href='http://194.145.122.12/wp-content/themes/eventr/css/jquery.countdown.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='mCustomScrollbar-css' href='http://194.145.122.12/wp-content/themes/eventr/css/jquery.mCustomScrollbar.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='magnific-popup-css' href='http://194.145.122.12/wp-content/themes/eventr/css/magnific-popup.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-carousel-css' href='http://194.145.122.12/wp-content/themes/eventr/css/owl.carousel.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-theme-css' href='http://194.145.122.12/wp-content/themes/eventr/css/owl.theme.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-transition-css' href='http://194.145.122.12/wp-content/themes/eventr/css/owl.transitions.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='salvattore-css' href='http://194.145.122.12/wp-content/themes/eventr/css/salvattore.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='startup-style-css' href='http://194.145.122.12/wp-content/themes/eventr/style.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css-css' href='http://194.145.122.12/wp-content/themes/eventr/style.php?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css' href='http://194.145.122.12/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='redux-google-fonts-tc_options-css' href='http://fonts.googleapis.com/css?family=Open+Sans&#038;ver=1456850330' type='text/css' media='all' />
+
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.6'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.6'></script>
+
+    <link rel='https://api.w.org/' href='http://194.145.122.12/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://194.145.122.12/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://194.145.122.12/wp-includes/wlwmanifest.xml" />
+
+    <link rel="canonical" href="http://194.145.122.12/" />
+    <link rel='shortlink' href='http://194.145.122.12/' />
+    <link rel="icon" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-180x180.png" />
+
+    <style type="text/css" title="dynamic-css" class="options-output">
+        .navbar-custom, .navbar-custom-blog, .subfooter {
+            font-family: "Open Sans";
+        }
+
+        h1, p, p.company, #program .nav-tabs > li > a, .price-table h3, #footer dd, .widget li, .entry-content, .tagcloud {
+            font-family: "Open Sans";
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1456842725482 {
+            background-color: #f5f5f5 !important;
+        }
+
+        .vc_custom_1436957006676 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .vc_custom_1456838261977 {
+            background-color: #f5f5f5 !important;
+        }
+
+        .vc_custom_1437471941324 {
+            background-image: url(http://192.168.235.26/wp-content/uploads/2015/07/bg-funfacts.png?id=639) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1456842151676 {
+            background-image: url(http://192.168.235.26/wp-content/uploads/2015/06/Altesmaedchen-saal.jpg?id=764) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1436919108953 {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .vc_custom_1456312777690 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .vc_custom_1456312770490 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .vc_custom_1456312804729 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .vc_custom_1456849951123 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .vc_custom_1456825470480 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .vc_custom_1456825483117 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+    </style>
+
+    <noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+
+
+
+
+
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("head")
+    }
+
+    <!-- Latest compiled and minified JavaScript -->
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @RenderAssetsService.Current.RenderStyles()
+    @Html.Sitecore().VisitorIdentification()
+</head>
+
+<body class="home page page-id-24 page-template page-template-home_vc_template page-template-home_vc_template-php wpb-js-composer js-comp-ver-4.9.2 vc_responsive">
+    <div id="content" class="site-content">
+        @Html.Sitecore().Placeholder("content") 
+
+        <!-- PRELOADING -->
+        <!-- NAVIGATION -->
+        <nav id="nav-primary" class="navbar navbar-custom" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="http://194.145.122.12" title="Sitecore Usergroup Deutschland" class="scroll-to">
+                        <img src="http://194.145.122.12/wp-content/uploads/2016/03/Logo-SUGDE53x53.png" alt="Sitecore Usergroup Deutschland" />
+                    </a>
+                </div>
+
+                <div id="nav" class="collapse navbar-collapse">
+                    <ul id="menu-primary" class="nav navbar-nav navbar-right">
+                        <li><a href="http://194.145.122.12/#info">ÜBER UNS</a></li>
+                        <li><a href="http://194.145.122.12/#program">AGENDA</a></li>
+                        <li id="menu-item-884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-884"><a title="NEWSLETTER" href="#newsletter">NEWSLETTER</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+     
+    <section id="slider" class="vc_row wpb_row vc_row-fluid">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_revslider_element wpb_content_element">
+                            <link href="http://fonts.googleapis.com/css?family=Open Sans:300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+                            <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullscreen-container" style="background-color:#E9E9E9;padding:0px;">
+                                <!-- START REVOLUTION SLIDER 5.1.6 fullscreen mode -->
+                                <div id="rev_slider_2_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.6">
+                                    <ul>
+                                        <!-- SLIDE  -->
+                                        <li data-index="rs-10" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="http://194.145.122.12/wp-content/uploads/2016/02/hamburg-963940_960_720-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                            <!-- MAIN IMAGE -->
+                                            <img src="http://194.145.122.12/wp-content/uploads/2016/02/hamburg-963940_960_720.jpg" alt="" width="960" height="637" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                            <!-- LAYERS -->
+                                            <!-- LAYER NR. 1 -->
+                                            <div class="tp-caption eventrhead   tp-resizeme"
+                                                 id="slide-10-layer-1"
+                                                 data-x="394"
+                                                 data-y="106"
+                                                 data-width="['553']"
+                                                 data-height="['123']"
+                                                 data-transform_idle="o:1;"
+                                                 data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;"
+                                                 data-transform_out="auto:auto;s:300;"
+                                                 data-start="500"
+                                                 data-splitin="none"
+                                                 data-splitout="none"
+                                                 data-responsive_offset="on"
+                                                 style="z-index: 5; min-width: 553px; max-width: 553px; max-width: 123px; max-width: 123px; white-space: normal; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">
+                                                Nächstes Treffen in Hamburg
+                                            </div>
+
+                                            <!-- LAYER NR. 2 -->
+                                            <div class="tp-caption eventrhead2   tp-resizeme"
+                                                 id="slide-10-layer-2"
+                                                 data-x="397"
+                                                 data-y="225"
+                                                 data-width="['auto']"
+                                                 data-height="['auto']"
+                                                 data-transform_idle="o:1;"
+                                                 data-transform_in="opacity:0;s:400;e:Power3.easeInOut;"
+                                                 data-transform_out="auto:auto;s:400;"
+                                                 data-start="600"
+                                                 data-splitin="none"
+                                                 data-splitout="none"
+                                                 data-responsive_offset="on"
+                                                 style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">
+                                                03. März 2016
+                                            </div>
+                                        </li>
+                                        <!-- SLIDE  -->
+                                        <li data-index="rs-6" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-105-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                            <!-- MAIN IMAGE -->
+                                            <img src="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-105.jpg" alt="" width="1087" height="815" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                            <!-- LAYERS -->
+                                            <!-- LAYER NR. 1 -->
+                                            <div class="tp-caption eventrhead   tp-resizeme"
+                                                 id="slide-6-layer-1"
+                                                 data-x="398"
+                                                 data-y="241"
+                                                 data-width="['auto']"
+                                                 data-height="['auto']"
+                                                 data-transform_idle="o:1;"
+                                                 data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;"
+                                                 data-transform_out="auto:auto;s:300;"
+                                                 data-start="500"
+                                                 data-splitin="none"
+                                                 data-splitout="none"
+                                                 data-responsive_offset="on"
+                                                 style="z-index: 5; white-space: nowrap; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">
+                                                Zu Gast in Bielefeld
+                                            </div>
+
+                                            <!-- LAYER NR. 2 -->
+                                            <div class="tp-caption eventrhead2   tp-resizeme"
+                                                 id="slide-6-layer-2"
+                                                 data-x="398"
+                                                 data-y="302"
+                                                 data-width="['auto']"
+                                                 data-height="['auto']"
+                                                 data-transform_idle="o:1;"
+                                                 data-transform_in="opacity:0;s:400;e:Power3.easeInOut;"
+                                                 data-transform_out="auto:auto;s:400;"
+                                                 data-start="600"
+                                                 data-splitin="none"
+                                                 data-splitout="none"
+                                                 data-responsive_offset="on"
+                                                 style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">
+                                                30. September 2015
+                                            </div>
+                                        </li>
+                                        <!-- SLIDE  -->
+                                        <li data-index="rs-11" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="http://194.145.122.12/wp-content/uploads/2016/03/Dresden-Elbe-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                            <!-- MAIN IMAGE -->
+                                            <img src="http://194.145.122.12/wp-content/uploads/2016/03/Dresden-Elbe.jpg" alt="" width="3264" height="2448" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                            <!-- LAYERS -->
+                                            <!-- LAYER NR. 1 -->
+                                            <div class="tp-caption eventrhead   tp-resizeme"
+                                                 id="slide-11-layer-1"
+                                                 data-x="382"
+                                                 data-y="55"
+                                                 data-width="['auto']"
+                                                 data-height="['auto']"
+                                                 data-transform_idle="o:1;"
+                                                 data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;"
+                                                 data-transform_out="auto:auto;s:300;"
+                                                 data-start="500"
+                                                 data-splitin="none"
+                                                 data-splitout="none"
+                                                 data-responsive_offset="on"
+                                                 style="z-index: 5; white-space: nowrap; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">
+                                                Zu Gast in Dresden
+                                            </div>
+
+                                            <!-- LAYER NR. 2 -->
+                                            <div class="tp-caption eventrhead2   tp-resizeme"
+                                                 id="slide-11-layer-2"
+                                                 data-x="385"
+                                                 data-y="108"
+                                                 data-width="['auto']"
+                                                 data-height="['auto']"
+                                                 data-transform_idle="o:1;"
+                                                 data-transform_in="opacity:0;s:400;e:Power3.easeInOut;"
+                                                 data-transform_out="auto:auto;s:400;"
+                                                 data-start="600"
+                                                 data-splitin="none"
+                                                 data-splitout="none"
+                                                 data-responsive_offset="on"
+                                                 style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">
+                                                05. Mai 2015
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="tp-bannertimer" style="height: 5px; background-color: rgba(0, 0, 0, 0.15);"></div>
+                                </div>
+                                <script>
+var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss=".tp-caption.eventrhead,.eventrhead{font-size:58px;line-height:60px;font-weight:800;font-family:montserratbold;color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.eventrhead2,.eventrhead2{font-size:25px;line-height:31px;font-weight:300;font-family:\"Open Sans\";color:rgb(255,255,255);text-decoration:none;padding:0px;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+                                </script>
+                                <script type="text/javascript">
+						/******************************************
+				-	PREPARE PLACEHOLDER FOR SLIDER	-
+			******************************************/
+
+			var setREVStartSize=function(){
+				try{var e=new Object,i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+					e.c = jQuery('#rev_slider_2_1');
+					e.gridwidth = [960];
+					e.gridheight = [350];
+
+					e.sliderLayout = "fullscreen";
+					e.fullScreenAutoWidth='off';
+					e.fullScreenAlignForce='off';
+					e.fullScreenOffsetContainer= '';
+					e.fullScreenOffset='';
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};
+
+
+			setREVStartSize();
+			function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+						var tpj=jQuery;
+			tpj.noConflict();
+			var revapi2;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_2_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_2_1");
+				}else{
+					revapi2 = tpj("#rev_slider_2_1").show().revolution({
+						sliderType:"standard",
+jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/",
+						sliderLayout:"fullscreen",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+							keyboardNavigation:"off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation:"off",
+							onHoverStop:"on",
+							touch:{
+								touchenabled:"on",
+								swipe_threshold: 75,
+								swipe_min_touches: 1,
+								swipe_direction: "horizontal",
+								drag_block_vertical: false
+							}
+						},
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:960,
+						gridheight:350,
+						lazyType:"none",
+						shadow:0,
+						spinner:"off",
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+						shuffle:"off",
+						autoHeight:"off",
+						fullScreenAutoWidth:"off",
+						fullScreenAlignForce:"off",
+						fullScreenOffsetContainer: "",
+						fullScreenOffset: "",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							nextSlideOnWindowFocus:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+                                </script>
+                            </div><!-- END REVOLUTION SLIDER -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+    <section id="highlight" class="vc_row wpb_row vc_row-fluid">
+            <div class="left wpb_column vc_column_container vc_col-sm-8">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="custom-header"><h2 class="text-right" style="color:;">Countdown</h2></div>
+                        <div class="wpb_text_column wpb_content_element ">
+                            <div class="wpb_wrapper">
+                                <p style="text-align: right;">bis zur nächsten Veranstaltung</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="right wpb_column vc_column_container vc_col-sm-4">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div id="DateCountdown" data-date="2016/03/03 13:00:00" style="width: 100%;"></div>
+                        <script>
+			jQuery(document).ready(function($){
+				$("#DateCountdown").TimeCircles({
+					"animation": "smooth",
+					"use_background": false,
+					"bg_width": 0,
+					"fg_width": 0,
+
+					"time": {
+						"Days": {
+							"text": "Tage",
+							"color": "#fac42b",
+							"show": true
+						},
+						"Hours": {
+							"text": "Stunden",
+							"color": "#fac42b",
+							"show": true
+						},
+						"Minutes": {
+							"text": "Minuten",
+							"color": "#fac42b",
+							"show": true
+						},
+						"Seconds": {
+							"text": "Sekunden",
+							"color": "#fac42b",
+							"show": true
+						}
+					}
+				});
+				});
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <section id="info" class="vc_row wpb_row vc_row-fluid">
+            <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="custom-header">
+                                <h1 class="text-center" style="color:;">Werden Sie Mitglied der Sitecore Usergroup</h1><p class="lead text-center" style="color:; ">
+                                    Wir wollen Mehrwerte für Anwender und Nutzer von Sitecore-Produkten schaffen.<br />
+                                    Unsere Community ermöglicht einen aktiven Austausch zwischen Partnern, Kunden und dem Hersteller.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="wpb_column vc_column_container vc_col-sm-4">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="feature text-center ">
+                                <i style="color:" class="pe-4x pe-7s-users"></i>
+                                <h4 style="color:">Gemeinsam</h4>
+                                <p>Wir profitieren alle von Synergien &#8211; daher besteht die Usergroup aus Entwicklern, Anwendern und Kunden &#8211; egal ob Endkunde, Partner oder Hersteller.</p>
+                            </div><div class="feature text-center ">
+                                <i style="color:" class="pe-4x pe-7s-gym"></i>
+                                <h4 style="color:">Interessensvertretung</h4>
+                                <p>
+                                    Als große Community können wir Ihre Interessen vorm Hersteller vertreten, um Arbeitsaufwände zu reduzieren und den Kundennutzen zu vergrößern.<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="wpb_column vc_column_container vc_col-sm-4">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="feature text-center ">
+                                <i style="color:" class="pe-4x pe-7s-sun"></i>
+                                <h4 style="color:">Kunde</h4>
+                                <p>Durch Austausch von Wissen und Erfahrungen gewährleisten Sie Ihren Kunden die optimalsten Lösungen.</p>
+                            </div><div class="feature text-center ">
+                                <i style="color:" class="pe-4x pe-7s-refresh-2"></i>
+                                <h4 style="color:">Austausch</h4>
+                                <p>Ein regelmäßiger Austausch an wechselnden Orten bietet Ihnen ein hervorragendes Netzwerk &#8211; deutschlandweit.</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="wpb_column vc_column_container vc_col-sm-4">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="feature text-center ">
+                                <i style="color:" class="pe-4x pe-7s-network"></i>
+                                <h4 style="color:">Hersteller</h4>
+                                <p>Wir sind unabhängig vom Hersteller und haben gemeinsam eine gewichtige Stimme um Ihre Interessen zu vertreten.</p>
+                            </div><div class="feature text-center ">
+                                <i style="color:" class="pe-4x pe-7s-pin"></i>
+                                <h4 style="color:">Events</h4>
+                                <p>Sie gestalten die Events nach Ihren Interessen mit &#8211; bringen Sie sich mit Fachvorträgen, Problemstellungen oder &#8222;best practices&#8220; ein.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <section id="program" class="vc_row wpb_row vc_row-fluid">
+            
+        <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="custom-header"><h2 class="" style="color:;">Agenda</h2></div><ul id="myTab" class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#sugdehh20160303" id="sugdehh20160303-tab" role="tab" data-toggle="tab" aria-controls="sugdehh20160303" aria-expanded="true">
+                                        Sitecore Usergroup in Hamburg
+                                    </a>
+                                </li>
+                            </ul><div id="myTabContent" class="tab-content ">
+                                <div role="tabpanel" class="tab-pane fade in active" id="sugdehh20160303" aria-labelledby="sugdehh20160303-tab">
+                                    <div id="accordion-sugdehh20160303" class="panel-group" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-heading" role="tab" id="heading-113">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1">
+                                                        <p class="date">13:00</p>
+                                                    </div>
+
+                                                    <div class="col-lg-11 col-md-11 col-sm-11">
+
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#113" aria-expanded="true" aria-controls="113">
+                                                                Begrüßung
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div><div id="113" class="panel-collapse collapse" role="tabpanel" aria-labelledby="113">
+
+
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-7 col-md-7 col-sm-10">
+                                                            <p class="speaker-name uppercase">Christopher Wojciech</p>
+                                                            <h4>Begrüßung</h4>
+                                                            <p>Eröffnung der 4. Sitecore Usergroup</p><p><i class="fa fa-lg fa-clock-o"></i> <span class="small">15 Minuten</span></p>
+
+                                                        </div>
+
+                                                        <div class="col-lg-3 col-md-3 col-sm-10">
+                                                            <h5>Christopher Wojciech</h5>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><div class="panel panel-default">
+
+                                            <div class="panel-heading" role="tab" id="heading-812">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1">
+                                                        <p class="date">13:15</p>
+                                                    </div>
+
+                                                    <div class="col-lg-11 col-md-11 col-sm-11">
+
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#812" aria-expanded="true" aria-controls="812">
+                                                                Habitat &#8211; Ein neues Sitecore Framework
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div><div id="812" class="panel-collapse collapse" role="tabpanel" aria-labelledby="812">
+
+
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-7 col-md-7 col-sm-10">
+                                                            <p class="speaker-name uppercase">Maksym Ponomarenko</p>
+                                                            <h4>Habitat &#8211; Ein neues Sitecore Framework</h4>
+                                                            <p></p><p><i class="fa fa-lg fa-clock-o"></i> <span class="small">30 Minuten</span></p>
+
+                                                        </div>
+
+                                                        <div class="col-lg-3 col-md-3 col-sm-10">
+                                                            <h5>Maksym Ponomarenko</h5><p class="small">Consultant, netzkern AG</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><div class="panel panel-default">
+
+                                            <div class="panel-heading" role="tab" id="heading-813">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1">
+                                                        <p class="date">14:00</p>
+                                                    </div>
+
+                                                    <div class="col-lg-11 col-md-11 col-sm-11">
+
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#813" aria-expanded="true" aria-controls="813">
+                                                                MongoDB &#8211; A new World
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div><div id="813" class="panel-collapse collapse" role="tabpanel" aria-labelledby="813">
+
+
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-7 col-md-7 col-sm-10">
+                                                            <p class="speaker-name uppercase">Gianluca Turturro</p>
+                                                            <h4>MongoDB &#8211; A new World</h4>
+                                                            <p></p><p><i class="fa fa-lg fa-clock-o"></i> <span class="small">90 Minuten</span></p>
+
+                                                        </div>
+
+                                                        <div class="col-lg-3 col-md-3 col-sm-10">
+                                                            <h5>Gianluca Turturro</h5><p class="small">Architect, Actum</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><div class="panel panel-default">
+
+                                            <div class="panel-heading" role="tab" id="heading-820">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1">
+                                                        <p class="date">15:30</p>
+                                                    </div>
+
+                                                    <div class="col-lg-11 col-md-11 col-sm-11">
+
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#820" aria-expanded="true" aria-controls="820">
+                                                                Know your Audience &#8211; Wege zur integrierten digitalen Strategie
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div><div id="820" class="panel-collapse collapse" role="tabpanel" aria-labelledby="820">
+
+
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-7 col-md-7 col-sm-10">
+                                                            <p class="speaker-name uppercase">Thomas Golatta</p>
+                                                            <h4>Know your Audience &#8211; Wege zur integrierten digitalen Strategie</h4>
+                                                            <p></p><p><i class="fa fa-lg fa-clock-o"></i> <span class="small">60 Minuten</span></p>
+
+                                                        </div>
+
+                                                        <div class="col-lg-3 col-md-3 col-sm-10">
+                                                            <h5>Thomas Golatta</h5><p class="small">CEO, netzkern AG</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><div class="panel panel-default">
+
+                                            <div class="panel-heading" role="tab" id="heading-822">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1">
+                                                        <p class="date">16:30</p>
+                                                    </div>
+
+                                                    <div class="col-lg-11 col-md-11 col-sm-11">
+
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#822" aria-expanded="true" aria-controls="822">
+                                                                Diskussions Panel
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div><div id="822" class="panel-collapse collapse" role="tabpanel" aria-labelledby="822">
+
+
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-7 col-md-7 col-sm-10">
+                                                            <p class="speaker-name uppercase"></p>
+                                                            <h4>Diskussions Panel</h4>
+                                                            <p></p><p><i class="fa fa-lg fa-clock-o"></i> <span class="small">30 Minuten</span></p>
+
+                                                        </div>
+
+                                                        <div class="col-lg-3 col-md-3 col-sm-10">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    
+    <section id="venue" class="vc_row wpb_row vc_row-fluid vc_custom_1456842725482">
+            <div class="venue wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
+                <div class="vc_column-inner vc_custom_1456842151676">
+                    <div class="wpb_wrapper">
+                        <div class="venue">
+                            <div class="venue-inner">
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8">
+                                            <h2 class="uppercase">Veranstaltungsort</h2>
+                                            <p class="lead">Wir sind zu Gast im einzigartigen Braugasthaus mit seinem unverkennbaren Charme, mitten in der Hamburger Sternschanze gelegen. Per Bahn sind Sie optimal angebunden. </p>
+                                            <h4></h4>
+                                            <img class="img-responsive" src=http://194.145.122.12/wp-content/uploads/2015/06/altesMaedchenLogo.png alt="">
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <i class="pe-4x pe-7s-map-2"></i>
+                                            <h4 class="uppercase">Anschrift</h4>
+                                            <p>Altes Mädchen</p>
+                                            <p>Lagerstraße 28b</p>
+                                            <p>20357 Hamburg</p>
+
+                                            <a class="button button-xsmall button-line-light" href="http://de.altes-maedchen.com/" target="_blank">Weitere Infos</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <section id="register" class="vc_row wpb_row vc_row-fluid">
+            <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="custom-header"><h2 class="text-center" style="color:;">Mitmachen</h2><p class="lead text-center" style="color:; ">Melden Sie sich noch heute für das kommende Event an.</p></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-modern vc_btn3-color-danger" href="https://www.xing.com/events/sitecore-usergroup-deutschland-1651636" title="" target="_blank">Jetzt anmelden</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <section id="gmap" class="vc_row wpb_row vc_row-fluid vc_custom_1436957006676">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner vc_custom_1436919108953">
+                    <div class="wpb_wrapper">
+                        <div id="ChIJz99PqEGPsUcRhqH_Od02K0U" style="height:400px;"></div>
+                        <script>
+			jQuery(document).ready(function($){
+
+				var latlng = new google.maps.LatLng(53.56315688,9.96803665);
+
+				var options = {
+					zoom: 14,
+					center: latlng,
+					scrollwheel: true,
+					styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}],
+					mapTypeId: google.maps.MapTypeId.ROADMAP, // This value can be set to define the map type ROADMAP/SATELLITE/HYBRID/TERRAIN
+					disableDefaultUI: true
+				};
+				var map = new google.maps.Map(document.getElementById("ChIJz99PqEGPsUcRhqH_Od02K0U"), options);
+
+				var image = new google.maps.MarkerImage("http://194.145.122.12/wp-content/uploads/2016/03/Logo-SUGDE-80x80.png",
+
+					new google.maps.Size(125, 75),
+
+					new google.maps.Point(0,0),
+
+					new google.maps.Point(18, 42)
+				);
+
+				// Add Marker
+				var marker1 = new google.maps.Marker({
+					position: new google.maps.LatLng(53.56315688,9.96803665),
+					map: map,
+					icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
+				});
+
+
+				});</script><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                            <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <section class="vc_row wpb_row vc_row-fluid">
+            <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-3">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456312777690">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-6-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="SUGDE Vortrag" /></div>
+                                </figure>
+                            </div>
+
+                            <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456312770490">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-1-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="SUGDE Teilnehmer" /></div>
+                                </figure>
+                            </div>
+
+                            <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456312804729">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-41-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="Besichtigung Waeschefabrik" /></div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="wpb_column vc_column_container vc_col-sm-9">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <h2 style="text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading">Rückblick: 3. Sitecore Usergroup Treffen</h2>
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <p>Bei der letzten Veranstaltung der Sitecore Usergroup trafen sich rund 30 Entwickler, Anwender und Projektmanager aus Sitecore-Agenturen und Unternehmen. Als Veranstaltungsort wurde diesmal das &#8222;Historische Museum Bielefeld&#8220; genutzt.</p>
+                                    <p>Inhaltlich gab es folgende Schwerpunkte:</p>
+                                    <ul>
+                                        <li>Evaluierung einer Hybris-Anbindung an Sitecore mittels Commerce Connect (Friederike Heinze, .comspace)</li>
+                                        <li>The good, the bad and the ugly Sitecore module (Maksym Ponomarenko, netzkern)</li>
+                                        <li>Vorstellung CRM Connector &#8211; MS Dynamics (Friederike Heinze, .comspace)</li>
+                                        <li>Gemeinsamer Wissens- und Erfahrungsaustausch</li>
+                                        <li>Kennenlernen und Vernetzung der SUGDE-Teilnehmer</li>
+                                    </ul>
+                                    <p>Nach dem offiziellen Programm gab es eine Führung in der historischen Produktionsstätte der Bielefelder Wäschefabrik und anschließend ein gemeinsames Abendessen. Alle Teilnehmer waren sich einig, dieses Format zukünftig weiter inhaltlich voranzutreiben und weiterhin Ihre Ideen mit in die Gestaltung der Usergroup einfließen zu lassen.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <section class="vc_row wpb_row vc_row-fluid vc_custom_1456838261977">
+            <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-3">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456849951123">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/06/Dresden-Restaurantjpg-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="Dresden Restaurantjpg" /></div>
+                                </figure>
+                            </div>
+
+                            <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456825470480">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/06/IMG_4254-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="Blick auf Dresden" /></div>
+                                </figure>
+                            </div>
+
+                            <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456825483117">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/06/IMG_4265-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="SUGDE Dresden" /></div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="wpb_column vc_column_container vc_col-sm-9">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <h2 style="text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading">Rückblick: 2. Sitecore Usergroup Treffen</h2>
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <p>Im Mai 2015 kam die Sitecore Usergroup in Dresden zusammen.</p>
+                                    <p>Inhaltlich gab es folgende Schwerpunkte:</p>
+                                    <ul>
+                                        <li>Vernetzt ans Ziel – die neue Website der Dresdner Verkehrsbetriebe AG (Richard Schulze, DVB AG und Axel Pötzsch, webit!)</li>
+                                        <li>Sitecore Health &#8211; Monitoring und Stabilität (Maksym Ponomarenko, netzkern)</li>
+                                        <li>Zukunft der Usergroup (Christopher Wojciech, netzkern)</li>
+                                        <li>Sitecore auf Microsoft Azure (Michael Steinforth, .comspace</li>
+                                    </ul>
+                                    <p>Dem offiziellen Programm folgte eine Stadtbesichtigung der Dresdner Altstadt bei herrlichem Wetter und ein gemeinsames Abendessen in ungezwungener Atmosphäre.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <section id="newsletter" class="vc_row wpb_row vc_row-fluid">
+            <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="custom-header"><h2 class="text-center" style="color:;">Newsletter</h2><p class="lead text-center" style="color:; ">Wir informieren Sie gerne über die nächsten Termine. Hier können Sie sich für unseren Event Newsletter anmelden.</p></div><div class="vc_wp_text wpb_content_element">
+                                <div class="widget widget_text">
+                                    <div class="textwidget">
+                                        <p>
+                                            <script type="text/javascript">
+(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+                                            </script><!-- MailChimp for WordPress v3.1.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><br />
+                                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-837" method="post" data-id="837" data-name="Upcoming Events">
+                                                <div class="mc4wp-form-fields">
+                                                    <div style="left:25%" class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_col-lg-6 vc_col-xs-12">
+                                                        <div class="vc_column-inner ">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="vc_btn3-container vc_btn3-center">
+                                                                    <input type="text" name="FNAME" placeholder="Vorname" required><br />
+                                                                    <input type="text" name="LNAME" placeholder="Nachname" required><br />
+                                                                    <input type="email" name="EMAIL" placeholder="Ihre E-Mail Adresse" required /><br />
+                                                                    <input type="submit" value="Registrieren" style="font-size:11pt" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-modern vc_btn3-color-danger" />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div>
+                        <p><input type="hidden" name="_mc4wp_timestamp" value="1460358110" /><input type="hidden" name="_mc4wp_form_id" value="837" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                    </div>
+                    <div class="mc4wp-response"></div>
+                    </form>
+                    <p><!-- / MailChimp for WordPress Plugin --></p>
+                </div>
+            </div>
+    
+        
+        
+        @*</div></div></div></div></div>*@
+    
+    </section>
+    
+    
+    <section id="funfacts" class="vc_row wpb_row vc_row-fluid vc_custom_1437471941324">
+        <div class="container">
+            <div class="wpb_column vc_column_container vc_col-sm-3">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="item">
+                            <i class="pe pe-4x  pe-7s-world"></i>
+                            <div class="desc">
+                                <p class="number">4</p>
+                                <p class="description">Städte</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="wpb_column vc_column_container vc_col-sm-3">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="item">
+                            <i class="pe pe-4x pe-7s-micro"></i>
+                            <div class="desc">
+                                <p class="number">9</p>
+                                <p class="description">Vortragende</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="wpb_column vc_column_container vc_col-sm-3">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="item">
+                            <i class="pe pe-4x pe-7s-display2"></i>
+                            <div class="desc">
+                                <p class="number">12</p>
+                                <p class="description">Vorträge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="download" class="vc_row wpb_row vc_row-fluid">
+        <div class="container">
+            <div class="wpb_column vc_column_container vc_col-sm-4">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_single_image wpb_content_element vc_align_right">
+
+                            <figure class="wpb_wrapper vc_figure">
+                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="http://194.145.122.12/wp-content/uploads/2015/07/download-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="download" srcset="http://194.145.122.12/wp-content/uploads/2015/07/download-150x150.png 150w, http://194.145.122.12/wp-content/uploads/2015/07/download-300x300.png 300w, http://194.145.122.12/wp-content/uploads/2015/07/download.png 400w" sizes="(max-width: 150px) 100vw, 150px" /></div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="wpb_column vc_column_container vc_col-sm-8">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="custom-header"><h3 class="" style="color:;">Satzung der Sitecore Usergroup Detuschland</h3></div>
+                        <div class="wpb_text_column wpb_content_element ">
+                            <div class="wpb_wrapper">
+
+                            </div>
+                        </div>
+                        <div class="pull-left"><a class="button button-small button-line-dark " href="#download" target="">Download</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div><!-- #content -->
+
+    @Html.Sitecore().Placeholder("footer")
+    @Html.Sitecore().Placeholder("subfooter")
+
+    <footer id="footer" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                </div>
+            </div>
+        </div>
+    </footer><!-- #colophon -->
+     
+
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <ul id="menu-footer" class="list-unstyled list-inline pull-right uppercase">
+                        <li id="menu-item-878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a title="Impressum" href="http://194.145.122.12/index.php/impressum/">Impressum</a></li>
+                        <li id="menu-item-883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a title="Kontakt" href="http://194.145.122.12/index.php/mc4wp-form-preview-9/">Kontakt</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <link rel='stylesheet' id='vc_google_fonts_montserratregular700-css' href='//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.4.2' type='text/css' media='all' />
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/wpdialog.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/194.145.122.12\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Senden ..."};
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4'></script>
+    <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&#038;ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/bootstrap.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/jquery.magnific-popup.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/jquery.countdown.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/jquery.counterup.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/owl.carousel.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/jquery.mCustomScrollbar.concat.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/jquery.sticky.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/jquery.stellar.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/retina.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/salvattore.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=4.9.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/themes/eventr/js/main.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.9.2'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=3.1.4'></script>
+    <script type="text/javascript">
+(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}})();</script>
+</body>
+</html>
