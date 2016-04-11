@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Sitecore.Feature.PageContent.Repositories;
+using Sitecore.Mvc.Presentation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
@@ -20,7 +22,7 @@ namespace Sitecore.Feature.PageContent.Controllers
 
         public ActionResult HighlightItem()
         {
-            var item = this.pageContentRepository.GetHighlightItem();
+            var item = this._pageContentRepository.GetHighlightItem();
             return this.View("Highlight", item);
         }
     }
