@@ -8,14 +8,19 @@
 <!DOCTYPE html>
 <html lang="de-DE"> 
 <head>
+
+   
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="http://194.145.122.12/xmlrpc.php">
+   
 
     <!--  SEO -->
     <meta name="description" content="Sitecore Usergroup Deutschland">
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://194.145.122.12/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://194.145.122.12/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
+    <meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <meta name="msapplication-TileImage" content="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-270x270.png" />
 
     <meta name="keywords" content="Sitecore Usergroup Deutschland">
 
@@ -23,15 +28,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    @if (!Sitecore.Context.PageMode.IsPageEditor)
-    {
-        @Html.Sitecore().Placeholder("head")
-    }
-    <!-- Latest compiled and minified JavaScript -->
-    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
-    @RenderAssetsService.Current.RenderStyles()
-    @Html.Sitecore().VisitorIdentification()
 
+    <meta name="generator" content="WordPress 4.4.2" />
+
+
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://194.145.122.12/xmlrpc.php">
 
     <link rel="shortcut icon" href="http://194.145.122.12/wp-content/uploads/2016/03/sudge-big-2.png" type="image/png">
     <link rel="apple-touch-icon" sizes="76x76" href="http://192.168.235.26/wp-content/themes/eventr/img/ipad-icon.png">
@@ -39,7 +41,6 @@
     <link rel="apple-touch-icon" sizes="152x152" href="http://192.168.235.26/wp-content/themes/eventr/img/ipad-retina-icon.png">
       
 
-    <title>Sitecore Usergroup Deutschland</title>
     <link rel="alternate" type="application/rss+xml" title="Sitecore Usergroup Deutschland &raquo; Feed" href="http://194.145.122.12/index.php/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Sitecore Usergroup Deutschland &raquo; Kommentar-Feed" href="http://194.145.122.12/index.php/comments/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Sitecore Usergroup Deutschland &raquo; Homepage Kommentar-Feed" href="http://194.145.122.12/index.php/homepage/feed/" />
@@ -65,10 +66,12 @@
     <link rel='stylesheet' id='wp-jquery-ui-dialog-css' href='http://194.145.122.12/wp-includes/css/jquery-ui-dialog.min.css?ver=4.4.2' type='text/css' media='all' />
     <link rel='stylesheet' id='contact-form-7-css' href='http://194.145.122.12/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-plugin-settings-css' href='http://194.145.122.12/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.6' type='text/css' media='all' />
+    
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {
         }
     </style>
+
     <link rel='stylesheet' id='bootstrap-css' href='http://194.145.122.12/wp-content/themes/eventr/css/bootstrap.css?ver=4.4.2' type='text/css' media='all' />
     <link rel='stylesheet' id='font-awesome-css' href='http://194.145.122.12/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=4.9.2' type='text/css' media='all' />
     <link rel='stylesheet' id='pixeden-icon-css' href='http://194.145.122.12/wp-content/themes/eventr/css/pe-icon-7-stroke.css?ver=4.4.2' type='text/css' media='all' />
@@ -86,23 +89,22 @@
     <link rel='stylesheet' id='style-css-css' href='http://194.145.122.12/wp-content/themes/eventr/style.php?ver=4.4.2' type='text/css' media='all' />
     <link rel='stylesheet' id='js_composer_front-css' href='http://194.145.122.12/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.9.2' type='text/css' media='all' />
     <link rel='stylesheet' id='redux-google-fonts-tc_options-css' href='http://fonts.googleapis.com/css?family=Open+Sans&#038;ver=1456850330' type='text/css' media='all' />
+
     <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
     <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
     <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.6'></script>
     <script type='text/javascript' src='http://194.145.122.12/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.6'></script>
+
     <link rel='https://api.w.org/' href='http://194.145.122.12/wp-json/' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://194.145.122.12/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://194.145.122.12/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 4.4.2" />
+
     <link rel="canonical" href="http://194.145.122.12/" />
     <link rel='shortlink' href='http://194.145.122.12/' />
-    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://194.145.122.12/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://194.145.122.12/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
-    <meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
     <link rel="icon" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-32x32.png" sizes="32x32" />
     <link rel="icon" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-180x180.png" />
-    <meta name="msapplication-TileImage" content="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-270x270.png" />
+
     <style type="text/css" title="dynamic-css" class="options-output">
         .navbar-custom, .navbar-custom-blog, .subfooter {
             font-family: "Open Sans";
@@ -175,16 +177,33 @@
             padding-bottom: 10px !important;
         }
     </style>
+
     <noscript>
-    <style type="text/css">
-        .wpb_animate_when_almost_visible {
-            opacity: 1;
-        }
-    </style></noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+
+
+
+
+
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("head")
+    }
+
+    <!-- Latest compiled and minified JavaScript -->
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @RenderAssetsService.Current.RenderStyles()
+    @Html.Sitecore().VisitorIdentification()
 </head>
 
 <body class="home page page-id-24 page-template page-template-home_vc_template page-template-home_vc_template-php wpb-js-composer js-comp-ver-4.9.2 vc_responsive">
     <div id="content" class="site-content">
+        @Html.Sitecore().Placeholder("content") 
 
         <!-- PRELOADING -->
         <!-- NAVIGATION -->
@@ -213,7 +232,9 @@
 
 
             </div>
-        </nav><section id="slider" class="vc_row wpb_row vc_row-fluid">
+        </nav>
+     
+    <section id="slider" class="vc_row wpb_row vc_row-fluid">
             <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
@@ -450,7 +471,11 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section id="highlight" class="vc_row wpb_row vc_row-fluid">
+        </section>
+    
+    
+    
+    <section id="highlight" class="vc_row wpb_row vc_row-fluid">
             <div class="left wpb_column vc_column_container vc_col-sm-8">
                 <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
@@ -503,7 +528,10 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section id="info" class="vc_row wpb_row vc_row-fluid">
+        </section>
+    
+    
+    <section id="info" class="vc_row wpb_row vc_row-fluid">
             <div class="container">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
@@ -563,8 +591,11 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section id="program" class="vc_row wpb_row vc_row-fluid">
-            <div class="container">
+        </section>
+    
+    <section id="program" class="vc_row wpb_row vc_row-fluid">
+            
+        <div class="container">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper">
@@ -763,7 +794,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                         </div>
                     </div>
                 </div>
-        </section><section id="venue" class="vc_row wpb_row vc_row-fluid vc_custom_1456842725482">
+        </section>
+    
+    <section id="venue" class="vc_row wpb_row vc_row-fluid vc_custom_1456842725482">
             <div class="venue wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
                 <div class="vc_column-inner vc_custom_1456842151676">
                     <div class="wpb_wrapper">
@@ -796,7 +829,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section id="register" class="vc_row wpb_row vc_row-fluid">
+        </section>
+    
+    <section id="register" class="vc_row wpb_row vc_row-fluid">
             <div class="container">
                 <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="custom-header"><h2 class="text-center" style="color:;">Mitmachen</h2><p class="lead text-center" style="color:; ">Melden Sie sich noch heute für das kommende Event an.</p></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
@@ -806,7 +841,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section id="gmap" class="vc_row wpb_row vc_row-fluid vc_custom_1436957006676">
+        </section>
+    
+    <section id="gmap" class="vc_row wpb_row vc_row-fluid vc_custom_1436957006676">
             <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner vc_custom_1436919108953">
                     <div class="wpb_wrapper">
@@ -849,7 +886,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section class="vc_row wpb_row vc_row-fluid">
+        </section>
+    
+    <section class="vc_row wpb_row vc_row-fluid">
             <div class="container">
                 <div class="wpb_column vc_column_container vc_col-sm-3">
                     <div class="vc_column-inner ">
@@ -899,7 +938,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section class="vc_row wpb_row vc_row-fluid vc_custom_1456838261977">
+        </section>
+    
+    <section class="vc_row wpb_row vc_row-fluid vc_custom_1456838261977">
             <div class="container">
                 <div class="wpb_column vc_column_container vc_col-sm-3">
                     <div class="vc_column-inner ">
@@ -948,7 +989,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     </div>
                 </div>
             </div>
-        </section><section id="newsletter" class="vc_row wpb_row vc_row-fluid">
+        </section>
+    
+    <section id="newsletter" class="vc_row wpb_row vc_row-fluid">
             <div class="container">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
@@ -997,7 +1040,15 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                     <p><!-- / MailChimp for WordPress Plugin --></p>
                 </div>
             </div>
-    </div></div></div></div></div></section><section id="funfacts" class="vc_row wpb_row vc_row-fluid vc_custom_1437471941324">
+    
+        
+        
+        @*</div></div></div></div></div>*@
+    
+    </section>
+    
+    
+    <section id="funfacts" class="vc_row wpb_row vc_row-fluid vc_custom_1437471941324">
         <div class="container">
             <div class="wpb_column vc_column_container vc_col-sm-3">
                 <div class="vc_column-inner ">
@@ -1037,7 +1088,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                 </div>
             </div>
         </div>
-    </section><section id="download" class="vc_row wpb_row vc_row-fluid">
+    </section>
+    
+    <section id="download" class="vc_row wpb_row vc_row-fluid">
         <div class="container">
             <div class="wpb_column vc_column_container vc_col-sm-4">
                 <div class="vc_column-inner ">
@@ -1068,6 +1121,9 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
 
     </div><!-- #content -->
 
+    @Html.Sitecore().Placeholder("footer")
+    @Html.Sitecore().Placeholder("subfooter")
+
     <footer id="footer" class="site-footer">
         <div class="container">
             <div class="row">
@@ -1081,10 +1137,8 @@ jsFileLocation:"//194.145.122.12/wp-content/plugins/revslider/public/assets/js/"
                 </div>
             </div>
         </div>
-
-
-
     </footer><!-- #colophon -->
+     
 
     <div class="subfooter">
         <div class="container">
