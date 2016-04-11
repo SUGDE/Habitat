@@ -19,5 +19,22 @@
         public static readonly ID Image = new ID("{9492E0BB-9DF9-46E7-8188-EC795C4ADE44}");
       }
     }
+     
+    public struct Highlight
+    {
+      public static ID ID = new ID("{7A670D41-2C9A-4C77-A67D-19269ACBB6A5}");
+
+      public struct Fields
+      {
+        public static readonly ID Title = new ID("{AD6D30AC-C636-4313-9806-E8076BF19AEF}");
+        public const string Title_FieldName = "Title";
+
+        public static readonly ID Text = new ID("{D1FFA3E4-4C14-423E-B6E3-71FAE7F079AC}");
+        public const string Text_FieldName = "Text";
+
+        public static readonly ID Body = new ID("{CA978C84-962C-44B1-BEC2-AD22885A9079}");
+        public const string Date_Countdown_FieldName = "Date Countdown"; 
+      }
+    }
   }
 }
