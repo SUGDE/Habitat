@@ -114,3 +114,4 @@ src/Project/Demo/code/bin/
 src/Project/Habitat/code/bin/
 packages/
 src/Project/UserGroup/code/netzkern.UserGroup/Properties/PublishProfiles/LocalCopy.pubxml
+src/Project/UserGroup/tds/netzkern.Usergroup.Master/obj/
