@@ -116,3 +116,5 @@ packages/
 src/Project/UserGroup/code/netzkern.UserGroup/Properties/PublishProfiles/LocalCopy.pubxml
 src/Project/UserGroup/tds/netzkern.Usergroup.Master/obj/
 .vs/config/applicationhost.config
+src/Feature/PageContent/tds/Sitecore.Feature.PageContent.Master/obj/
+src/Project/Habitat/tds/Sitecore.Habitat.Website.Master/obj/
