@@ -32,7 +32,7 @@
         public static readonly ID Text = new ID("{D1FFA3E4-4C14-423E-B6E3-71FAE7F079AC}");
         public const string Text_FieldName = "Text";
 
-        public static readonly ID Body = new ID("{CA978C84-962C-44B1-BEC2-AD22885A9079}");
+        public static readonly ID Date_Countdown = new ID("{CA978C84-962C-44B1-BEC2-AD22885A9079}");
         public const string Date_Countdown_FieldName = "Date Countdown"; 
       }
     }

@@ -171,6 +171,13 @@
     <None Include="Properties\PublishProfiles\Local Copy.pubxml" />
     <None Include="Properties\PublishProfiles\LocalCopy.pubxml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\foundation\Assets\code\Sitecore.Foundation.Assets.csproj">
+      <Project>{7e46ff93-ee05-412c-ac47-2a59a13da73c}</Project>
+      <Name>Sitecore.Foundation.Assets</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

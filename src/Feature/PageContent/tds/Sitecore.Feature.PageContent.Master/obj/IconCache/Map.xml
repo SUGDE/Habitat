@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent/ChildPageList" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent/PageBody" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent/PageImage" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent/PageSummary" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent/PageTeaser" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/PageContent/PageTitle" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/_HasPageContent" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/_HasPageContent/Content" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/_HasPageContent/Content/Body" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/_HasPageContent/Content/Image" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/_HasPageContent/Content/Summary" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/_HasPageContent/Content/Title" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/UserGroup/Highlight/Data/Title" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/UserGroup/Highlight/Data/Date Countdown" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/PageContent/UserGroup/Highlight/Data/Text" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+</ItemIconCache>

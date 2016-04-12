@@ -20,10 +20,10 @@ namespace Sitecore.Feature.PageContent.Controllers
             this._pageContentRepository = pageContentRepository;
         }
 
-        public ActionResult HighlightItem()
+        public ActionResult Highlight()
         {
             var item = this._pageContentRepository.GetHighlightItem();
-            return this.View("Highlight", item);
+            return this.View("~/Views/PageContent/UserGroup/Highlight.cshtml", item);
         }
     }
 }
