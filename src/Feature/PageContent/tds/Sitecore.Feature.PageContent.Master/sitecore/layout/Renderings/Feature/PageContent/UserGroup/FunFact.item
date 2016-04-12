@@ -2,8 +2,8 @@
 version: 1
 id: {9EBA2C18-BFD1-4C9E-A8DC-3EB5A11520DF}
 database: master
-path: /sitecore/layout/Renderings/Feature/PageContent/FunFact
-parent: {D5D2AB0A-3909-4E22-AF15-3BEF1E97A0C0}
+path: /sitecore/layout/Renderings/Feature/PageContent/UserGroup/FunFact
+parent: {C3CF749E-EEA3-46D5-9E4D-EFF40F7DBB23}
 name: FunFact
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
@@ -40,7 +40,7 @@ content-length: 56
 ----version----
 language: en
 version: 1
-revision: 5624a775-390c-464f-ad07-02368f231d45
+revision: 3b6d5250-4816-4392-8afc-7bd6b24f0986
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5624a775-390c-464f-ad07-02368f231d45
+3b6d5250-4816-4392-8afc-7bd6b24f0986
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160412T152025Z
+20160412T152539Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
