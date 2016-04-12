@@ -5,14 +5,7 @@
 
     @if (Sitecore.Context.PageMode.IsExperienceEditor)
     {
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            Ico Class
-        </div>
-        <div class="panel-body">
-            @Html.Sitecore().Field(Templates.Fact.Fields.Ico_Class_FieldName)
-        </div>
-    </div>
+        @Html.Sitecore().Field(Templates.Fact.Fields.Ico_Class_FieldName)
     }
 
     <div class="desc">
