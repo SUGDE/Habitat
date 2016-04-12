@@ -106,6 +106,13 @@
     <link rel="apple-touch-icon-precomposed" href="http://194.145.122.12/wp-content/uploads/2016/02/cropped-SUGDE-Icon-180x180.png" />
 
     <style type="text/css" title="dynamic-css" class="options-output">
+
+        .experienceEditor section{
+            background-color:aliceblue;
+            height:100px;
+            width:100%;
+            margin:10px 0 10px 0;
+        }
         .navbar-custom, .navbar-custom-blog, .subfooter {
             font-family: "Open Sans";
         }
@@ -200,8 +207,8 @@
     @RenderAssetsService.Current.RenderStyles()
     @Html.Sitecore().VisitorIdentification()
 </head>
-
-<body class="home page page-id-24 page-template page-template-home_vc_template page-template-home_vc_template-php wpb-js-composer js-comp-ver-4.9.2 vc_responsive">
+@{ var className = Sitecore.Context.PageMode.IsExperienceEditor ? "experienceEditor" : "";}
+<body class="home page page-id-24 page-template page-template-home_vc_template page-template-home_vc_template-php wpb-js-composer js-comp-ver-4.9.2 vc_responsive @className">
     <div id="content" class="site-content">
         @Html.Sitecore().Placeholder("content")  
     </div><!-- #content -->
