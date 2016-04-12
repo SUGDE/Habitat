@@ -20,9 +20,9 @@ section
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 77
+content-length: 116
 
-{E86BFEB1-F3FC-4E37-B693-A5550D6789EE}|{E0D97E96-B5E5-4126-9C54-E655897C35C9}
+{E86BFEB1-F3FC-4E37-B693-A5550D6789EE}|{E0D97E96-B5E5-4126-9C54-E655897C35C9}|{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
@@ -33,7 +33,7 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: 04a15f8f-86db-4467-8b9c-5a6a8693565c
+revision: 65f1e3b2-c21c-48db-aa30-ef2abc8a536f
 
 ----field----
 field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-04a15f8f-86db-4467-8b9c-5a6a8693565c
+65f1e3b2-c21c-48db-aa30-ef2abc8a536f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160412T123610Z
+20160412T140635Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
