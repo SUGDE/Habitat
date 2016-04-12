@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {8820E615-8C0B-4E35-B98F-928C768D5DAC}
+database: master
+path: /sitecore/content/UserGroup/Global/Media/Dresden
+parent: {C38C7D8D-D4CC-4350-9CFF-1104E079C9BE}
+name: Dresden
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0369E1A-9030-4A05-A09C-EF09B664ED27}
+templatekey: Image
+
+----version----
+language: en
+version: 1
+revision: 6e2dca6c-1816-4b5b-909f-cce8bf6731ff
+
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 18
+
+Zu Gast in Dresden
+----field----
+field: {302C9F8D-F703-4F76-A4AB-73D222648232}
+name: MediaDescription
+key: mediadescription
+content-length: 18
+
+Zu Gast in Dresden
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{7ED7ED60-9756-4B88-985F-1C500B175F44}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160412T102014Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6e2dca6c-1816-4b5b-909f-cce8bf6731ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160412T103419Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

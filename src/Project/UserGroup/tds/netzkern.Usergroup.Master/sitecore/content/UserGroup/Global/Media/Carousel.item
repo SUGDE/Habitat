@@ -1,26 +1,26 @@
 ----item----
 version: 1
-id: {F7F76563-DFDA-425A-A529-3FD39BDD8A61}
+id: {B65C7F28-211F-43A2-87A9-FE687696D67F}
 database: master
-path: /sitecore/content/UserGroup/Global
-parent: {A6E885D9-4245-474F-A716-F8AC0ECC854B}
-name: Global
+path: /sitecore/content/UserGroup/Global/Media/Carousel
+parent: {C38C7D8D-D4CC-4350-9CFF-1104E079C9BE}
+name: Carousel
 master: {00000000-0000-0000-0000-000000000000}
-template: {FD075CBC-572E-4D27-A09F-B780E8FF4741}
-templatekey: Global Folder
+template: {C18D3794-D126-4548-BFC8-89358DE6E9C1}
+templatekey: Carousel
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 155
-
-{AC7394D5-2AA7-4FDB-A7D8-B1B87F9FA661}|{29D4B405-39EB-487D-9D6B-3F8467AB167D}|{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{920A1781-559F-4E1C-BB2E-6B9A2113FE6B}
 ----version----
 language: en
 version: 1
-revision: 2e5fbb5f-ac6d-4240-85bc-880d7661fa78
+revision: 3500d938-4a44-4f4c-b38b-d704a90a04ee
 
+----field----
+field: {72EA8682-24D2-4BEB-951C-3E2164974105}
+name: MediaSelector
+key: mediaselector
+content-length: 77
+
+{8820E615-8C0B-4E35-B98F-928C768D5DAC}|{129EA6B2-78B3-4A4E-BB4C-36F7787B0313}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160411T152148Z
+20160412T101952Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2e5fbb5f-ac6d-4240-85bc-880d7661fa78
+3500d938-4a44-4f4c-b38b-d704a90a04ee
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160412T101935Z
+20160412T103522Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
