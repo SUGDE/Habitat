@@ -139,6 +139,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -152,7 +153,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\UserGroup\Sublayouts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Project\netzkern.UserGroup.Website.config">
@@ -170,12 +170,17 @@
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local Copy.pubxml" />
     <None Include="Properties\PublishProfiles\LocalCopy.pubxml" />
+    <Content Include="Views\UserGroup\Sublayouts\Section.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\foundation\Assets\code\Sitecore.Foundation.Assets.csproj">
       <Project>{7e46ff93-ee05-412c-ac47-2a59a13da73c}</Project>
       <Name>Sitecore.Foundation.Assets</Name>
       <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\foundation\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">
+      <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
+      <Name>Sitecore.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
