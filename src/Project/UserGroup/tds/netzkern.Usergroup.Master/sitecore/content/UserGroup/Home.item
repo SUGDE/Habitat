@@ -13,13 +13,13 @@ templatekey: Home
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 3119
+content-length: 2501
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8417BB36-CA50-4415-890A-6C56C51CC163}" p:before="r[@uid='{6D84A9A1-A4C6-4993-BC44-B6BE1ABE4AF7}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=slider" s:ph="content" /><r uid="{6D84A9A1-A4C6-4993-BC44-B6BE1ABE4AF7}" p:before="r[@uid='{EEBE29C8-1956-4F55-B986-CE1AF6809540}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=highlight" s:ph="content" /><r uid="{EEBE29C8-1956-4F55-B986-CE1AF6809540}" p:before="r[@uid='{B1AC413B-4F7F-44AA-ABE0-26505B2FA113}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=info" s:ph="content" /><r uid="{B1AC413B-4F7F-44AA-ABE0-26505B2FA113}" p:before="r[@uid='{54B7BD93-EF03-48AE-AE91-1F68F50E7D56}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=program" s:ph="content" /><r uid="{54B7BD93-EF03-48AE-AE91-1F68F50E7D56}" p:before="r[@uid='{9D7FDE4C-C843-4320-87E3-8E3F6453A25D}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teaser1" s:ph="content" /><r uid="{9D7FDE4C-C843-4320-87E3-8E3F6453A25D}" p:before="r[@uid='{F2054599-C385-49C2-BD58-1DAA9B4293E8}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teaser2" s:ph="content" /><r uid="{F2054599-C385-49C2-BD58-1DAA9B4293E8}" p:before="r[@uid='{76B3AE0C-68C4-4ECF-8C5F-BDDBFB37BD75}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=venue" s:ph="content" /><r uid="{76B3AE0C-68C4-4ECF-8C5F-BDDBFB37BD75}" p:before="r[@uid='{017559A5-4DE0-4BA4-8D1E-D93E083A9552}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=register" s:ph="content" /><r uid="{017559A5-4DE0-4BA4-8D1E-D93E083A9552}" p:before="r[@uid='{AF3A8788-184F-44BC-BDE5-B5712E1982EB}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=gmap" s:ph="content" /><r uid="{AF3A8788-184F-44BC-BDE5-B5712E1982EB}" p:before="r[@uid='{AB788C44-5B3A-4EAC-9A1A-AF17D14F1A60}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=newsletter" s:ph="content" /><r uid="{AB788C44-5B3A-4EAC-9A1A-AF17D14F1A60}" p:before="r[@uid='{BB850777-1E30-4E16-BB17-1600B772BE6F}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teasers" s:ph="content" /><r uid="{BB850777-1E30-4E16-BB17-1600B772BE6F}" p:before="r[@uid='{E4EC2A7B-4C58-40B6-A5F4-6A5DF80A3A6A}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=funfacts" s:ph="content" /><r uid="{E4EC2A7B-4C58-40B6-A5F4-6A5DF80A3A6A}" p:before="r[@uid='{903CD189-AF45-445F-9909-B89C68ADE547}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=download" s:ph="content" /><r uid="{903CD189-AF45-445F-9909-B89C68ADE547}" p:before="r[@uid='{A120BA5E-BA1D-4F25-95F3-6F372AECEBCE}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teaser1" s:ph="content" /><r uid="{A120BA5E-BA1D-4F25-95F3-6F372AECEBCE}" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teaser2" s:ph="content" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8417BB36-CA50-4415-890A-6C56C51CC163}" p:before="r[@uid='{6D84A9A1-A4C6-4993-BC44-B6BE1ABE4AF7}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=slider" s:ph="content" /><r uid="{6D84A9A1-A4C6-4993-BC44-B6BE1ABE4AF7}" p:before="r[@uid='{EEBE29C8-1956-4F55-B986-CE1AF6809540}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=highlight" s:ph="content" /><r uid="{EEBE29C8-1956-4F55-B986-CE1AF6809540}" p:before="r[@uid='{B1AC413B-4F7F-44AA-ABE0-26505B2FA113}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=info" s:ph="content" /><r uid="{B1AC413B-4F7F-44AA-ABE0-26505B2FA113}" p:before="r[@uid='{76B3AE0C-68C4-4ECF-8C5F-BDDBFB37BD75}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=program" s:ph="content" /><r uid="{76B3AE0C-68C4-4ECF-8C5F-BDDBFB37BD75}" p:before="r[@uid='{F2054599-C385-49C2-BD58-1DAA9B4293E8}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=register" s:ph="content" /><r uid="{F2054599-C385-49C2-BD58-1DAA9B4293E8}" p:before="r[@uid='{017559A5-4DE0-4BA4-8D1E-D93E083A9552}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=venue" s:ph="content" /><r uid="{017559A5-4DE0-4BA4-8D1E-D93E083A9552}" p:before="r[@uid='{54B7BD93-EF03-48AE-AE91-1F68F50E7D56}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=gmap" s:ph="content" /><r uid="{54B7BD93-EF03-48AE-AE91-1F68F50E7D56}" p:before="r[@uid='{9D7FDE4C-C843-4320-87E3-8E3F6453A25D}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teaser1" s:ph="content" /><r uid="{9D7FDE4C-C843-4320-87E3-8E3F6453A25D}" p:before="r[@uid='{AF3A8788-184F-44BC-BDE5-B5712E1982EB}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=teaser2" s:ph="content" /><r uid="{AF3A8788-184F-44BC-BDE5-B5712E1982EB}" p:before="r[@uid='{BB850777-1E30-4E16-BB17-1600B772BE6F}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=newsletter" s:ph="content" /><r uid="{BB850777-1E30-4E16-BB17-1600B772BE6F}" p:before="r[@uid='{E4EC2A7B-4C58-40B6-A5F4-6A5DF80A3A6A}']" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=funfacts" s:ph="content" /><r uid="{E4EC2A7B-4C58-40B6-A5F4-6A5DF80A3A6A}" s:ds="" s:id="{E280D092-C090-4EEC-800E-7544A0F24235}" s:par="Section ID=download" s:ph="content" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 3177f5ad-a35f-413e-977f-82419f88de39
+revision: cddabc0f-2dab-41a7-91fb-d4e704fd2e4c
 
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3177f5ad-a35f-413e-977f-82419f88de39
+cddabc0f-2dab-41a7-91fb-d4e704fd2e4c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160413T085106Z
+20160413T110146Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
