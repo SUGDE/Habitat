@@ -4,19 +4,19 @@
 
 
 <div class="teaser teaser-default teaser">
-  @if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Title) || Sitecore.Context.PageMode.IsPageEditor)
+  @if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Title) || Sitecore.Context.PageMode.IsExperienceEditor)
   {
 		<h3 class="teaser-heading">
 			@Html.Sitecore().Field(Templates.TeaserContent.Fields.Title.ToString(), Model.Item)
 		</h3>
 	}
-	@if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Summary) || Sitecore.Context.PageMode.IsPageEditor)
+	@if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Summary) || Sitecore.Context.PageMode.IsExperienceEditor)
 	{
 	<div class="teaser-body">
 		@Html.Sitecore().Field(Templates.TeaserContent.Fields.Summary.ToString(), Model.Item)
 	</div>
 	}
-	@if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Link) || Sitecore.Context.PageMode.IsPageEditor)
+	@if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Link) || Sitecore.Context.PageMode.IsExperienceEditor)
 	{
 	<div class="teaser-footer">
 		@Html.Sitecore().Field(Templates.TeaserContent.Fields.Link.ToString(), Model.Item, new
