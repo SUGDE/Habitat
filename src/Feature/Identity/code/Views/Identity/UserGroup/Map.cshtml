@@ -10,7 +10,7 @@
     <script>
 			jQuery(document).ready(function($){
 
-				var latlng = new google.maps.LatLng(53.56315688,9.96803665);
+			    var latlng = new google.maps.LatLng(@Html.Sitecore().Field(Templates.Map.Fields.Latitude_FieldName, Model.Item),  @Html.Sitecore().Field(Templates.Map.Fields.Longitude_FieldName, Model.Item));
 
 				var options = {
 					zoom: 14,
