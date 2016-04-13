@@ -26,5 +26,23 @@
         public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
       }
     }
+    public struct ThreeImagesTeaser
+    {
+      public static ID ID = new ID("{6B4D1DD5-9D04-4BFC-8780-518E77E6A7D3}");
+
+      public struct Fields
+      {
+        public static readonly ID Title = new ID("{3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}");
+        public const string Title_FieldName = "Title";
+        public static readonly ID Text = new ID("{7C7EA1D5-BF8A-435B-91D3-8A809A1BF3D2}");
+        public const string Text_FieldName = "Text";
+        public static readonly ID Image1 = new ID("{AC49CE89-F884-4DFA-BDBE-5D24F765F17A}");
+        public const string Image1_FieldName = "Image 1";
+        public static readonly ID Image2 = new ID("{BCCF5D01-2938-4181-810B-FF82F27814F0}");
+        public const string Image2_FieldName = "Image 2";
+        public static readonly ID Image3 = new ID("{AE028312-A96C-4651-970A-3ECEB19049D4}");
+        public const string Image3_FieldName = "Image 3";
+      }
+    }
   }
 }
