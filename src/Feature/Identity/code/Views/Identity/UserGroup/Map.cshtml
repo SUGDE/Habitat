@@ -1,0 +1,45 @@
+﻿@using Sitecore.Feature.Identity
+@using Sitecore.Feature.Identity.Repositories
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="wpb_wrapper">
+    <div id="ChIJz99PqEGPsUcRhqH_Od02K0U" style="height: 400px; position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
+    
+    </div>
+    <script>
+			jQuery(document).ready(function($){
+
+			    var latlng = new google.maps.LatLng(@Html.Sitecore().Field(Templates.Map.Fields.Latitude_FieldName, Model.Item),  @Html.Sitecore().Field(Templates.Map.Fields.Longitude_FieldName, Model.Item));
+
+				var options = {
+					zoom: 14,
+					center: latlng,
+					scrollwheel: true,
+					styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}],
+					mapTypeId: google.maps.MapTypeId.ROADMAP, // This value can be set to define the map type ROADMAP/SATELLITE/HYBRID/TERRAIN
+					disableDefaultUI: true
+				};
+				var map = new google.maps.Map(document.getElementById("ChIJz99PqEGPsUcRhqH_Od02K0U"), options);
+
+				var image = new google.maps.MarkerImage("@Model.Item.ImageUrl(Templates.Map.Fields.Logo)",
+
+					new google.maps.Size(125, 75),
+
+					new google.maps.Point(0,0),
+
+					new google.maps.Point(18, 42)
+				);
+
+				// Add Marker
+				var marker1 = new google.maps.Marker({
+				    position: new google.maps.LatLng(@Html.Sitecore().Field(Templates.Map.Fields.Latitude_FieldName, Model.Item),  @Html.Sitecore().Field(Templates.Map.Fields.Longitude_FieldName, Model.Item)),
+					map: map,
+					icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
+				});
+
+
+				});</script><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+    </div>
+</div>

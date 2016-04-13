@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {564E5A86-2B4F-4AE8-ADF5-F50A5873AC4C}
+id: {20B30ED9-3BB3-4DA1-91B8-FE5828EEF7E0}
 database: master
 path: /sitecore/content/UserGroup/Global/Teasers/Overview 2
 parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
@@ -15,25 +15,25 @@ name: Image 1
 key: image 1
 content-length: 58
 
-<image mediaid="{1AC3E5BE-5359-4DF4-9395-AB4F007FFFA7}" />
+<image mediaid="{40AD3C63-CA10-4055-B738-9814C2A4C866}" />
 ----field----
 field: {BCCF5D01-2938-4181-810B-FF82F27814F0}
 name: Image 2
 key: image 2
 content-length: 58
 
-<image mediaid="{269002E6-B52B-4BB5-A709-D4F4BA7D19F6}" />
+<image mediaid="{44EDAE2E-5829-4877-872A-3E31271EDDDD}" />
 ----field----
 field: {AE028312-A96C-4651-970A-3ECEB19049D4}
 name: Image 3
 key: image 3
 content-length: 58
 
-<image mediaid="{D21983B3-FA6B-46BF-B0DA-FAD3F226B0A0}" />
+<image mediaid="{9DDD6447-5073-464D-B6C7-A1D9DCD6BF31}" />
 ----version----
 language: en
 version: 1
-revision: 57adfff7-d808-4424-9e6c-b4e689cb180a
+revision: 570801f4-5db6-4b5e-9d1c-1839e19e4d4f
 
 ----field----
 field: {3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}
@@ -46,17 +46,17 @@ Rückblick: 2. Sitecore Usergroup Treffen
 field: {7C7EA1D5-BF8A-435B-91D3-8A809A1BF3D2}
 name: Text
 key: text
-content-length: 995
+content-length: 949
 
-<p style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">Im Mai 2015 kam die&nbsp;Sitecore Usergroup in Dresden zusammen.</p>
+<p style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">Im Mai 2015 kam die Sitecore Usergroup in Dresden zusammen.</p>
 <p style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">Inhaltlich gab es folgende Schwerpunkte:</p>
 <ul style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">
-    <li>Vernetzt ans Ziel &ndash; die neue Website der Dresdner Verkehrsbetriebe AG (Richard Schulze, DVB AG und Axel P&ouml;tzsch, webit!)</li>
-    <li>Sitecore Health &ndash; Monitoring und Stabilit&auml;t (Maksym Ponomarenko, netzkern)</li>
+    <li>Vernetzt ans Ziel – die neue Website der Dresdner Verkehrsbetriebe AG (Richard Schulze, DVB AG und Axel Pötzsch, webit!)</li>
+    <li>Sitecore Health – Monitoring und Stabilität (Maksym Ponomarenko, netzkern)</li>
     <li>Zukunft der Usergroup (Christopher Wojciech, netzkern)</li>
     <li style="margin-bottom: 0px;">Sitecore auf Microsoft Azure (Michael Steinforth, .comspace</li>
 </ul>
-<p style="color: #666666; background-color: #f5f5f5;">Dem offiziellen Programm folgte&nbsp;eine Stadtbesichtigung der Dresdner Altstadt bei herrlichem Wetter und ein&nbsp;gemeinsames&nbsp;Abendessen in ungezwungener Atmosph&auml;re</p>
+<p style="color: #666666; background-color: #f5f5f5;">Dem offiziellen Programm folgte eine Stadtbesichtigung der Dresdner Altstadt bei herrlichem Wetter und ein gemeinsames Abendessen in ungezwungener Atmosphäre.</p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -70,7 +70,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160412T162920Z
+20160412T162905Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -84,14 +84,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-57adfff7-d808-4424-9e6c-b4e689cb180a
+570801f4-5db6-4b5e-9d1c-1839e19e4d4f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160413T081050Z
+20160413T085106Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -99,3 +99,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
