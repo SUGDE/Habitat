@@ -11,7 +11,7 @@ namespace Sitecore.Feature.Teasers.Models
     {
       this.Item = item;
       this.Title = item[Templates.InfoTeaser.Fields.Title];
-      this.Text = item[Templates.InfoTeaser.Fields.Text];
+      this.Text = item[Templates.InfoTeaser.Fields.Summary];
        
      var list = (MultilistField)item.Fields[Templates.InfoTeaser.Fields.InfoItems];
       var infoItems = list.GetItems();

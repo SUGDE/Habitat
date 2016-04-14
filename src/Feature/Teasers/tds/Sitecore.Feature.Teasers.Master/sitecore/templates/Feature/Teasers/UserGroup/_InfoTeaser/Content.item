@@ -2,9 +2,9 @@
 version: 1
 id: {3C446EC0-4FB9-4570-8D7C-AE7DF9E1BACE}
 database: master
-path: /sitecore/templates/Feature/Teasers/UserGroup/_InfoTeaser/Data
+path: /sitecore/templates/Feature/Teasers/UserGroup/_InfoTeaser/Content
 parent: {13E0B5D0-37F2-4C10-B73F-70A8591173A1}
-name: Data
+name: Content
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -12,7 +12,7 @@ templatekey: Template section
 ----version----
 language: en
 version: 1
-revision: 9654b800-d757-4ad8-bb3a-5c58516657b7
+revision: 63748e2d-aee7-410e-b422-35cc2ddd0263
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9654b800-d757-4ad8-bb3a-5c58516657b7
+63748e2d-aee7-410e-b422-35cc2ddd0263
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T094456Z
+20160414T132043Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

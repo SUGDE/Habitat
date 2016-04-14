@@ -2,7 +2,7 @@
 version: 1
 id: {102A6AEE-C4B8-4D12-B4ED-347B0B9ED66D}
 database: master
-path: /sitecore/templates/Feature/Teasers/UserGroup/_InfoTeaser/Data/InfoItems
+path: /sitecore/templates/Feature/Teasers/UserGroup/_InfoTeaser/Content/InfoItems
 parent: {3C446EC0-4FB9-4570-8D7C-AE7DF9E1BACE}
 name: InfoItems
 master: {00000000-0000-0000-0000-000000000000}
@@ -33,7 +33,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: f45adc5a-cb38-484e-9187-9f3539bb44cd
+revision: 89677c6b-50cb-492d-b545-04f706fe07bb
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f45adc5a-cb38-484e-9187-9f3539bb44cd
+89677c6b-50cb-492d-b545-04f706fe07bb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T094456Z
+20160414T132043Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

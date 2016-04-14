@@ -19,19 +19,19 @@ content-length: 233
 ----version----
 language: en
 version: 1
-revision: d7ce20fa-6ec4-4e2e-af97-95f84d505ef1
+revision: 5500df30-e0a0-4fdb-bec8-dbecf6ccec7a
 
 ----field----
-field: {26470A5C-42A5-4EB4-94F8-689BC958EE9E}
-name: Title
-key: title
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
 content-length: 42
 
 Werden Sie Mitglied der Sitecore Usergroup
 ----field----
-field: {9ED44A1F-E0DB-4935-A9DF-106B1B9B70CE}
-name: Text
-key: text
+field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
+name: TeaserSummary
+key: teasersummary
 content-length: 176
 
 Wir wollen Mehrwerte für Anwender und Nutzer von Sitecore-Produkten schaffen.
@@ -63,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d7ce20fa-6ec4-4e2e-af97-95f84d505ef1
+5500df30-e0a0-4fdb-bec8-dbecf6ccec7a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T123930Z
+20160414T132204Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -78,3 +78,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
