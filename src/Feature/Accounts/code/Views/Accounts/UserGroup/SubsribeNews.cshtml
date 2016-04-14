@@ -1,0 +1,68 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.Analytics.Tracking
+@using Sitecore.Feature.Accounts.Models
+@using Sitecore.Feature.Accounts.Texts
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.HtmlHelpers
+@using Sitecore.Mvc.Configuration
+@model Sitecore.Feature.Accounts.Models.SubscribeNews
+<div class="container">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <div class="custom-header">
+                    <h2 class="text-center" style="color:;">@SubscribeNewsTexts.Title</h2>
+                    <p class="lead text-center" style="color:; ">@SubscribeNewsTexts.Subtitle</p>
+                </div>
+                <div class="vc_wp_text wpb_content_element">
+                    <div class="widget widget_text">
+                        <div class="textwidget">
+
+                            @using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post))
+                            {
+                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-837" method="post" data-id="837" data-name="Upcoming Events">
+                                <div class="mc4wp-form-fields">
+                                    <div style="left:25%" class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_col-lg-6 vc_col-xs-12">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_btn3-container vc_btn3-center">
+                                                    <p>
+                                                        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control", placeholder = "Vorname", id = "firstName" })
+                                                    </p>
+                                                    <p>
+                                                        @Html.TextBoxFor(x => x.LastName, new { @class = "form-control", placeholder = "Nachname", id = "firstName" })
+                                                    </p>
+                                                    <p>
+                                                        @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Ihre E-Mail Adresse", id = "firstName" })
+                                                    </p>
+
+                                                    @*<input type="text" name="FNAME" placeholder="Vorname" required=""><br>
+                                                    <input type="text" name="LNAME" placeholder="Nachname" required=""><br>
+                                                    <input type="email" name="EMAIL" placeholder="Ihre E-Mail Adresse" required=""><br>*@
+                                                    <p>
+                                                        <input type="submit" value='@SubscribeNewsTexts.RegisterButton' style="font-size:11pt" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-modern vc_btn3-color-danger">
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: none;">
+                                        <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off">
+                                    </div>
+                                    <p>
+                                        <input type="hidden" name="_mc4wp_timestamp" value="1460551745">
+                                        <input type="hidden" name="_mc4wp_form_id" value="837">
+                                        <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                                    </p>
+                                </div>
+                                <div class="mc4wp-response"></div>
+                            </form>
+                           }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
