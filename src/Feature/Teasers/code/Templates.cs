@@ -33,7 +33,7 @@
 
       public struct Fields
       {
-        public static readonly ID IcoClass = new ID("{3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}");
+        public static readonly ID IcoClass = new ID("{3B14FCF1-F30C-4339-9F78-08218931C6C4}");
         public const string IcoClass_FieldName = "IcoClass";
 
         public static readonly ID Title = new ID("{4A59D072-5B41-4A79-A157-2B2CCAC10F2B}");
