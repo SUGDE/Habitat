@@ -24,7 +24,10 @@
                         </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4">
-                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", item) 
+                            @if (item != null)
+                            {
+                             @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", item)
+                            }
                         </div>
 
                     </div>

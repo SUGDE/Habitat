@@ -29,7 +29,7 @@
                         i++;
                     }
                     <div class="feature text-center ">
-                        @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem);
+                        @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem)
                     </div>
 
                     @if (i < teaserModel.InfoItems.Count)
@@ -37,7 +37,7 @@
                         var infoItem2 = teaserModel.InfoItems[i];
                         i++;
                         <div class="feature text-center ">
-                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem2); 
+                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem2)
                         </div>
                     } 
                 </div>
