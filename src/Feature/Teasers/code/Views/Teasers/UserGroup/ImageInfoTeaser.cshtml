@@ -1,0 +1,35 @@
+﻿@using System.Linq
+@using Sitecore.Feature.Teasers
+@using Sitecore.Foundation.SitecoreExtensions.Extensions 
+@model Sitecore.Mvc.Presentation.RenderingModel
+ 
+@{ var teaserModel = new Sitecore.Feature.Teasers.Models.InfoTeaserModel(Model.Item);
+  var item = teaserModel.InfoItems.FirstOrDefault();}
+
+<div class="vc_column-inner vc_custom_1456842151676">
+    <div class="wpb_wrapper">
+        <div class="venue">
+            <div class="venue-inner">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <h2 class="uppercase">@Html.Sitecore().Field(Templates.InfoTeaser.Fields.Title.ToString(), Model.Item)</h2>
+                            <p>
+                                @Html.Sitecore().Field(Templates.InfoTeaser.Fields.Summary.ToString(), Model.Item)
+                            </p>
+                        
+                            <h4></h4>
+                            <img class="img-responsive" src="@Model.Item.ImageUrl(Templates.TeaserContent.Fields.Image)" alt="">
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", item) 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -29,16 +29,7 @@
                         i++;
                     }
                     <div class="feature text-center ">
-                        @if (Sitecore.Context.PageMode.IsExperienceEditor)
-                        {
-                            @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem)
-                        }
-                        else
-                        {
-                            <i style="color:" class="@Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem)"></i>
-                        }
-                        <h4 style="color:">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Title.ToString(), infoItem)</h4>
-                        <p>@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Summary.ToString(), infoItem)</p>
+                        @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem);
                     </div>
 
                     @if (i < teaserModel.InfoItems.Count)
@@ -46,16 +37,7 @@
                         var infoItem2 = teaserModel.InfoItems[i];
                         i++;
                         <div class="feature text-center ">
-                            @if (Sitecore.Context.PageMode.IsExperienceEditor)
-                            {
-                               @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem2)
-                            }
-                            else
-                            {
-                                <i style="color:" class="@Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem2)"></i>
-                            }
-                            <h4 style="color:">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Title.ToString(), infoItem)</h4>
-                            <p>@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Summary.ToString(), infoItem)</p> 
+                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem2); 
                         </div>
                     } 
                 </div>
