@@ -1,0 +1,66 @@
+﻿@using Sitecore.Feature.Teasers
+@using Sitecore.Foundation.SitecoreExtensions.Extensions 
+@model Sitecore.Mvc.Presentation.RenderingModel
+ 
+@{ var teaserModel = new Sitecore.Feature.Teasers.Models.InfoTeaserModel(Model.Item);}
+<div class="container">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <div class="custom-header">
+                    <h1 class="text-center" style="color:;">@Html.Sitecore().Field(Templates.InfoTeaser.Fields.Title.ToString(), Model.Item)</h1><p class="lead text-center" style="color:; ">
+                        @Html.Sitecore().Field(Templates.InfoTeaser.Fields.Text.ToString(), Model.Item)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    @{int i = 0; }
+
+    @while (i < teaserModel.InfoItems.Count)
+    {
+        <div class="wpb_column vc_column_container vc_col-sm-4">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                     
+                    @{
+                        var infoItem = teaserModel.InfoItems[i];
+                        i++;
+                    }
+                    <div class="feature text-center ">
+                        @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                        {
+                            @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem)
+                        }
+                        else
+                        {
+                            <i style="color:" class="@Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem)"></i>
+                        }
+                        <h4 style="color:">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Title.ToString(), infoItem)</h4>
+                        <p>@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Summary.ToString(), infoItem)</p>
+                    </div>
+
+                    @if (i < teaserModel.InfoItems.Count)
+                    {
+                        var infoItem2 = teaserModel.InfoItems[i];
+                        i++;
+                        <div class="feature text-center ">
+                            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                            {
+                               @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem2)
+                            }
+                            else
+                            {
+                                <i style="color:" class="@Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), infoItem2)"></i>
+                            }
+                            <h4 style="color:">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Title.ToString(), infoItem)</h4>
+                            <p>@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Summary.ToString(), infoItem)</p> 
+                        </div>
+                    } 
+                </div>
+            </div>
+        </div> 
+    }
+     
+</div>

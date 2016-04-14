@@ -26,6 +26,38 @@
         public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
       }
     }
+    
+    public struct IcoTeaser
+    {
+      public static ID ID = new ID("{224E6A57-60DF-438A-9AF4-D63FFC36BBD6}");
+
+      public struct Fields
+      {
+        public static readonly ID IcoClass = new ID("{3B14FCF1-F30C-4339-9F78-08218931C6C4}");
+        public const string IcoClass_FieldName = "IcoClass";
+
+        public static readonly ID Title = new ID("{4A59D072-5B41-4A79-A157-2B2CCAC10F2B}");
+        public static readonly ID Summary = new ID("{13D97A52-7C4E-407C-960D-FADDE8A3C1B1}");
+        public static readonly ID Image = new ID("{0F6B5546-E0AB-4487-81DE-640C1AA1B65B}");
+        public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
+      }
+    }
+    
+    public struct InfoTeaser
+    {
+      public static ID ID = new ID("{6B4D1DD5-9D04-4BFC-8780-518E77E6A7D3}");
+
+      public struct Fields
+      {
+        public static readonly ID Title = new ID("{26470A5C-42A5-4EB4-94F8-689BC958EE9E}");
+        public const string Title_FieldName = "Title";
+        public static readonly ID Text = new ID("{9ED44A1F-E0DB-4935-A9DF-106B1B9B70CE}");
+        public const string Text_FieldName = "Text";
+        public static readonly ID InfoItems = new ID("{102A6AEE-C4B8-4D12-B4ED-347B0B9ED66D}");
+        public const string InfoItems_FieldName = "InfoItems"; 
+      }
+    }
+
     public struct ThreeImagesTeaser
     {
       public static ID ID = new ID("{6B4D1DD5-9D04-4BFC-8780-518E77E6A7D3}");
