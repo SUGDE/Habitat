@@ -1,0 +1,80 @@
+﻿@using Sitecore.Feature.Teasers
+@using Sitecore.Feature.Teasers.Repositories
+@using Sitecore.Data.Items
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+ @{ var elements = Model.Item == null ? new List<Item>(): AccordeonElementsRespository.Get(Model.Item); } 
+ <div class="container">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+
+                <div class="custom-header">
+                    <h2 class="" style="color:;">@Html.Sitecore().Field(Templates.InfoTeaser.Fields.Title.ToString(), Model.Item)</h2>
+                </div>
+                <ul id="myTab" class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#sugdehh20160303" id="sugdehh20160303-tab" role="tab" data-toggle="tab" aria-controls="sugdehh20160303" aria-expanded="true">
+                            @Html.Sitecore().Field(Templates.InfoTeaser.Fields.Summary.ToString(), Model.Item)
+                        </a>
+                    </li>
+                </ul>
+                
+                <div id="myTabContent" class="tab-content ">
+                    <div role="tabpanel" class="tab-pane fade in active" id="sugdehh20160303" aria-labelledby="sugdehh20160303-tab">
+                        <div id="accordion-sugdehh20160303" class="panel-group" role="tablist" aria-multiselectable="true">
+                            @foreach (var elementItem in elements)
+                            {
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab" id="heading-113">
+                                    <div class="row">
+                                        <div class="col-lg-1 col-md-1 col-sm-1">
+                                            <p class="date">@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Time.ToString(), elementItem)</p>
+                                        </div>
+
+                                        <div class="col-lg-11 col-md-11 col-sm-11">
+
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#@elementItem.ID.ToShortID()" aria-expanded="true" aria-controls="@elementItem.ID.ToShortID()">
+                                                   @Html.Sitecore().Field(Templates.InfoTeaser.Fields.Title.ToString(), elementItem)
+                                                </a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="@elementItem.ID.ToShortID()" class="panel-collapse collapse" role="tabpanel" aria-labelledby="@elementItem.ID.ToShortID()">
+
+
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-lg-7 col-md-7 col-sm-10">
+                                                <p class="speaker-name uppercase">@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Presenter.ToString(), elementItem)</p>
+                                                <h4>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Title.ToString(), elementItem)</h4>
+                                                <p>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Summary.ToString(), elementItem)</p>
+                                                <p>
+                                                    <i class="fa fa-lg fa-clock-o"></i> 
+                                                    <span class="small">@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Duration.ToString(), elementItem)</span>
+                                                </p>
+
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-sm-10">
+                                                <h5>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Presenter.ToString(), elementItem)</h5>
+                                                <p>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.PresentersTitle.ToString(), elementItem)</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                         
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
