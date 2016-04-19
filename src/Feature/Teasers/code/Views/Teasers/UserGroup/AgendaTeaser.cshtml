@@ -25,6 +25,12 @@
                         <div id="accordion-sugdehh20160303" class="panel-group" role="tablist" aria-multiselectable="true">
                             @foreach (var elementItem in elements)
                             {
+                                      var presenterItem = AgendaElementsRespository.Get(elementItem);
+                                      if (presenterItem == null)
+                                      {
+                                        continue;
+                                      }
+                                 
                             <div class="panel panel-default">
 
                                 <div class="panel-heading" role="tab" id="heading-113">
@@ -49,7 +55,7 @@
                                     <div class="panel-body">
                                         <div class="row">
                                             <div class="col-lg-7 col-md-7 col-sm-10">
-                                                <p class="speaker-name uppercase">@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Presenter.ToString(), elementItem)</p>
+                                                <p class="speaker-name uppercase">@Html.Sitecore().Field(Templates.Presenters.Fields.Name.ToString(), presenterItem)</p>
                                                 <h4>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Title.ToString(), elementItem)</h4>
                                                 <p>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Summary.ToString(), elementItem)</p>
                                                 <p>
@@ -60,8 +66,8 @@
                                             </div>
 
                                             <div class="col-lg-3 col-md-3 col-sm-10">
-                                                <h5>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Presenter.ToString(), elementItem)</h5>
-                                                <p>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.PresentersTitle.ToString(), elementItem)</p>
+                                                <h5>@Html.Sitecore().Field(Templates.Presenters.Fields.Name.ToString(), presenterItem)</h5>
+                                                <p>@Html.Sitecore().Field(Templates.Presenters.Fields.Position.ToString(), presenterItem)</p>
                                             </div>
 
                                         </div>

@@ -132,8 +132,8 @@
     <Compile Include="Models\AccordeonModel.cs" />
     <Compile Include="Controller\TeasersController.cs" />
     <Compile Include="Models\IconTeaserModel.cs" />
-    <Compile Include="Models\InfoTeaserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AgendaRespository.cs" />
     <Compile Include="Repositories\AccordeonElementsRespository.cs" />
     <Compile Include="Services\HumanFriendlyIntegerService.cs" />
     <Compile Include="Templates.cs" />
