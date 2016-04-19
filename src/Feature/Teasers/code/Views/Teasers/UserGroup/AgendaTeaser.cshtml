@@ -2,6 +2,7 @@
 @using Sitecore.Feature.Teasers.Repositories
 @using Sitecore.Data.Items
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Data.Fields
 @model Sitecore.Mvc.Presentation.RenderingModel
  @{ var elements = Model.Item == null ? new List<Item>(): AccordeonElementsRespository.Get(Model.Item); } 
  <div class="container">
@@ -25,18 +26,30 @@
                         <div id="accordion-sugdehh20160303" class="panel-group" role="tablist" aria-multiselectable="true">
                             @foreach (var elementItem in elements)
                             {
-                                      var presenterItems = AgendaElementsRespository.Get(elementItem);
-                                      if (presenterItems == null)
-                                      {
-                                        continue;
-                                      }
-                                 
+                                var presenterItems = AgendaElementsRespository.Get(elementItem);
+                                if (presenterItems == null)
+                                {
+                                    continue;
+                                }
+
+                                DateField timefield = (DateField)elementItem.Fields[Templates.AccordionElementTeaser.Fields.Time];
+                                var time = timefield.DateTime.ToString("hh:mmmm");
+
                             <div class="panel panel-default">
 
                                 <div class="panel-heading" role="tab" id="heading-113">
                                     <div class="row">
                                         <div class="col-lg-1 col-md-1 col-sm-1">
-                                            <p class="date">@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Time.ToString(), elementItem)</p>
+                                            <p class="date">
+                                                @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+                                                {
+                                                    @time
+                                                }
+                                                else
+                                                {
+                                                    @Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Time.ToString(), elementItem)
+                                                }
+                                            </p>
                                         </div>
 
                                         <div class="col-lg-11 col-md-11 col-sm-11">
