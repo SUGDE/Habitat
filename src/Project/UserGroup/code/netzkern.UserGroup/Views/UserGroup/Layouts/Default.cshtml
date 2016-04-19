@@ -203,8 +203,7 @@
     }
 
     <!-- Latest compiled and minified JavaScript -->
-    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
-    @RenderAssetsService.Current.RenderStyles()
+ 
     @Html.Sitecore().VisitorIdentification()
 </head>
 @{ var className = Sitecore.Context.PageMode.IsExperienceEditor ? "experienceEditor" : "";}

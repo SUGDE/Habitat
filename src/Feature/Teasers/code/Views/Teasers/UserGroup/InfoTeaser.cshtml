@@ -1,8 +1,11 @@
 ﻿@using Sitecore.Feature.Teasers
 @using Sitecore.Foundation.SitecoreExtensions.Extensions 
+@using Sitecore.Data.Items
+@using System.Linq
+@using Sitecore.Feature.Teasers.Repositories
 @model Sitecore.Mvc.Presentation.RenderingModel
+@{ var elements = Model.Item == null ? new List<Item>() : AccordeonElementsRespository.Get(Model.Item).ToList(); }
  
-@{ var teaserModel = new Sitecore.Feature.Teasers.Models.InfoTeaserModel(Model.Item);}
 <div class="container">
     <div class="wpb_column vc_column_container vc_col-sm-12">
         <div class="vc_column-inner ">
@@ -18,23 +21,23 @@
   
     @{int i = 0; }
 
-    @while (i < teaserModel.InfoItems.Count)
+    @while (i < elements.Count)
     {
         <div class="wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                      
                     @{
-                        var infoItem = teaserModel.InfoItems[i];
+                        var infoItem = elements[i];
                         i++;
                     }
                     <div class="feature text-center ">
                         @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem)
                     </div>
 
-                    @if (i < teaserModel.InfoItems.Count)
+                    @if (i < elements.Count)
                     {
-                        var infoItem2 = teaserModel.InfoItems[i];
+                        var infoItem2 = elements[i];
                         i++;
                         <div class="feature text-center ">
                             @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem2)

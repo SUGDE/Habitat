@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {DB64FD94-0BE6-4FBB-86CF-9E513890355F}
+database: master
+path: /sitecore/content/UserGroup/Global/Teasers/Agenda Elements
+parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
+name: Agenda Elements
+master: {00000000-0000-0000-0000-000000000000}
+template: {29D4B405-39EB-487D-9D6B-3F8467AB167D}
+templatekey: Teaser Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 194
+
+{C7D9D293-4EF8-4380-8E10-C4632E729F39}|{29D4B405-39EB-487D-9D6B-3F8467AB167D}|{F5F30CDC-9003-4015-84EC-C3A7E3E50D5E}|{40AD8A9B-C75C-428D-9E1A-51372B21F63E}|{329536A9-1AEC-46DD-BC61-4F373CB24ED6}
+----version----
+language: en
+version: 1
+revision: a00bdd53-2004-4f32-942f-2095fa7de3a5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160415T221721Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a00bdd53-2004-4f32-942f-2095fa7de3a5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160419T152101Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {3123623F-0177-4641-8025-F63ED05FA7ED}
+database: master
+path: /sitecore/content/UserGroup/Global/Teasers/Agenda
+parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
+name: Agenda
+master: {00000000-0000-0000-0000-000000000000}
+template: {C15A3F42-4604-4E6C-AF35-8FA86F148C43}
+templatekey: Info Teaser
+
+----version----
+language: en
+version: 1
+revision: 6affd6f5-0c50-437c-b4e3-92aace9c6d3c
+
+----field----
+field: {9E942565-677F-491C-A0AC-6B930E37342A}
+name: AccordeonSelector
+key: accordeonselector
+content-length: 77
+
+{966BF715-1479-403E-94BC-4B6F4716F846}|{79AE0678-4AF2-45D4-9563-38911C828332}
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 6
+
+Agenda
+----field----
+field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
+name: TeaserSummary
+key: teasersummary
+content-length: 29
+
+Sitecore Usergroup in Hamburg
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160415T221659Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6affd6f5-0c50-437c-b4e3-92aace9c6d3c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160419T115000Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
