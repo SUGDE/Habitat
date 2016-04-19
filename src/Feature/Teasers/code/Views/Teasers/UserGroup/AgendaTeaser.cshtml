@@ -25,8 +25,8 @@
                         <div id="accordion-sugdehh20160303" class="panel-group" role="tablist" aria-multiselectable="true">
                             @foreach (var elementItem in elements)
                             {
-                                      var presenterItem = AgendaElementsRespository.Get(elementItem);
-                                      if (presenterItem == null)
+                                      var presenterItems = AgendaElementsRespository.Get(elementItem);
+                                      if (presenterItems == null)
                                       {
                                         continue;
                                       }
@@ -55,7 +55,10 @@
                                     <div class="panel-body">
                                         <div class="row">
                                             <div class="col-lg-7 col-md-7 col-sm-10">
+@foreach (var presenterItem in presenterItems)
+{
                                                 <p class="speaker-name uppercase">@Html.Sitecore().Field(Templates.Presenters.Fields.Name.ToString(), presenterItem)</p>
+}
                                                 <h4>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Title.ToString(), elementItem)</h4>
                                                 <p>@Html.Sitecore().Field(Templates.AccordionElementTeaser.Fields.Summary.ToString(), elementItem)</p>
                                                 <p>
@@ -66,8 +69,12 @@
                                             </div>
 
                                             <div class="col-lg-3 col-md-3 col-sm-10">
+                                            @foreach (var presenterItem in presenterItems)
+                                            {
+                                              
                                                 <h5>@Html.Sitecore().Field(Templates.Presenters.Fields.Name.ToString(), presenterItem)</h5>
-                                                <p>@Html.Sitecore().Field(Templates.Presenters.Fields.Position.ToString(), presenterItem)</p>
+                                                <p>@Html.Sitecore().Field(Templates.Presenters.Fields.Position.ToString(), presenterItem), @Html.Sitecore().Field(Templates.Presenters.Fields.Company.ToString(), presenterItem)</p>
+                                            }
                                             </div>
 
                                         </div>
