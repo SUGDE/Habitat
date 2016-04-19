@@ -2,8 +2,8 @@
 version: 1
 id: {4DA23137-A331-4FE9-954B-F6F70C20EBC9}
 database: master
-path: /sitecore/content/UserGroup/Global/Teasers/Interessensvertretung
-parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
+path: /sitecore/content/UserGroup/Global/Teasers/Info/Interessensvertretung
+parent: {637C259E-102B-464E-96DF-A8260147FDF9}
 name: Interessensvertretung
 master: {00000000-0000-0000-0000-000000000000}
 template: {898DD929-0775-47B6-83A2-B954F50253E7}
@@ -12,7 +12,7 @@ templatekey: Ico Teaser
 ----version----
 language: en
 version: 1
-revision: ed37fe8f-bcaa-4cb6-bd0d-abc931aede6f
+revision: 843f36d9-d72b-434b-95e2-409ad7a2a7f4
 
 ----field----
 field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ed37fe8f-bcaa-4cb6-bd0d-abc931aede6f
+843f36d9-d72b-434b-95e2-409ad7a2a7f4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T121810Z
+20160415T222533Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,40 +1,40 @@
 ----item----
 version: 1
-id: {A15B5BFB-BF4E-427C-B968-CB65B0DA9571}
+id: {78958915-F537-4B67-8095-E266D85BCBDB}
 database: master
-path: /sitecore/content/UserGroup/Global/Maps/Usergroup Location
-parent: {F6119398-2DBB-47AC-8254-2FDF98041A19}
-name: Usergroup Location
+path: /sitecore/content/UserGroup/Global/Presenters/Maksym Ponomarenko
+parent: {A97555D3-DDE2-455B-BB42-5D1CB67CB01B}
+name: Maksym Ponomarenko
 master: {00000000-0000-0000-0000-000000000000}
-template: {D9ABC1AB-A86B-4C10-A2FA-5E8C9C437412}
-templatekey: Map
+template: {FF8F5169-649A-493B-8434-4186DF31AD02}
+templatekey: Presenter
 
 ----version----
 language: en
 version: 1
-revision: e6fca1f5-899f-44bc-98fa-9ed24d1f448a
+revision: f697bc5a-9ba4-4c4c-b712-bc69b2be89d2
 
 ----field----
-field: {0948AA52-7461-4242-B621-DDBADCE77B1B}
-name: Logo
-key: logo
-content-length: 65
+field: {7B931692-6576-4E23-A138-75578BCF1C76}
+name: Name
+key: name
+content-length: 18
 
-<image mediaid="{8BEC670E-A1A6-4568-ACF9-EB6528EBD136}" ></image>
+Maksym Ponomarenko
 ----field----
-field: {7B8CB591-76DF-428D-8BDE-1C225D9F3DCE}
-name: Latitude
-key: latitude
-content-length: 11
-
-53.56315688
-----field----
-field: {477D9545-3770-4228-AB9F-5FD82BAA10A5}
-name: Longitude
-key: longitude
+field: {1C58CACE-03E3-4ED2-8BC7-EE75D707FF03}
+name: Position
+key: position
 content-length: 10
 
-9.96803665
+Consultant
+----field----
+field: {528AF702-A62E-4D67-8DB5-553612CC95C8}
+name: Company
+key: company
+content-length: 11
+
+netzkern AG
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160413T091629Z
+20160419T120120Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e6fca1f5-899f-44bc-98fa-9ed24d1f448a
+f697bc5a-9ba4-4c4c-b712-bc69b2be89d2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160413T111745Z
+20160419T120145Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -77,10 +77,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
-name: __Lock
-key: __lock
-content-length: 5
-
-<r />
