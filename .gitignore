@@ -37,3 +37,4 @@ build/
 IconCache/
 T4RenderCache/
 BuiltFiles_*.txt
+deployed/
