@@ -220,8 +220,36 @@
         @Html.Sitecore().Placeholder("content")  
     </div><!-- #content -->
 
-    @Html.Sitecore().Placeholder("footer")
-    @Html.Sitecore().Placeholder("subfooter")
+    <footer id="footer" class="site-footer">
+        @Html.Sitecore().Placeholder("footer")
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                </div>
+            </div>
+        </div> 
+    </footer>
+    <div class="subfooter">
+        @Html.Sitecore().Placeholder("subfooter")
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <ul id="menu-footer" class="list-unstyled list-inline pull-right uppercase">
+                        <li id="menu-item-878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a title="Impressum" href="http://194.145.122.12/index.php/impressum/">Impressum</a></li>
+                        <li id="menu-item-883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a title="Kontakt" href="http://194.145.122.12/index.php/mc4wp-form-preview-9/">Kontakt</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
      
     <link rel='stylesheet' id='vc_google_fonts_montserratregular700-css' href='//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.4.2' type='text/css' media='all' />
     <script type='text/javascript' src='http://194.145.122.12/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
