@@ -193,10 +193,6 @@
         </style>
     </noscript>
 
-
-
-
-
     @if (!Sitecore.Context.PageMode.IsExperienceEditor)
     {
         @Html.Sitecore().Placeholder("head")
@@ -208,7 +204,19 @@
 </head>
 @{ var className = Sitecore.Context.PageMode.IsExperienceEditor ? "experienceEditor" : "";}
 <body class="home page page-id-24 page-template page-template-home_vc_template page-template-home_vc_template-php wpb-js-composer js-comp-ver-4.9.2 vc_responsive @className">
+    
     <div id="content" class="site-content">
+        <div id="nav-primary-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 55px;">
+            <nav id="nav-primary" class="navbar navbar-custom" role="navigation" style="position: fixed; top: 0px;">
+                <div class="container">
+
+                    @Html.Sitecore().Placeholder("header-logo")
+                    @Html.Sitecore().Placeholder("top-navigation")  
+                   
+                </div>
+            </nav>
+        </div>
+
         @Html.Sitecore().Placeholder("content")  
     </div><!-- #content -->
 
