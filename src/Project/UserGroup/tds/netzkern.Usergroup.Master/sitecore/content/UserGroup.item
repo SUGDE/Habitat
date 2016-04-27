@@ -19,8 +19,22 @@ content-length: 2
 ----version----
 language: en
 version: 1
-revision: c4fcc25f-db1d-4f97-ab27-7ee67c3c217e
+revision: c19bd042-16f7-4650-a9cc-0c083f74ea46
 
+----field----
+field: {E748D808-64C1-4DEC-9718-F35CF9689E4B}
+name: Logo
+key: logo
+content-length: 141
+
+<image mediaid="{8BEC670E-A1A6-4568-ACF9-EB6528EBD136}" alt="Sitecore Usergroup Deutschland" height="" width="" hspace="" vspace="" ></image>
+----field----
+field: {B8027200-AAB0-4876-B454-DBB85ADD9E3C}
+name: HostName
+key: hostname
+content-length: 19
+
+local.usergroup.dev
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -34,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c4fcc25f-db1d-4f97-ab27-7ee67c3c217e
+c19bd042-16f7-4650-a9cc-0c083f74ea46
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160415T222301Z
+20160427T095142Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -49,3 +63,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

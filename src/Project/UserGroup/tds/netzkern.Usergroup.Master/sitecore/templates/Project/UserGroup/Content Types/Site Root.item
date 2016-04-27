@@ -13,9 +13,9 @@ templatekey: Template
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
 name: __Base template
 key: __base template
-content-length: 77
+content-length: 116
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{BB85C5C2-9F87-48CE-8012-AF67CF4F765D}
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{BB85C5C2-9F87-48CE-8012-AF67CF4F765D}|{FA8DE5B9-D5D8-40A7-866A-23AF4F5A9629}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -33,7 +33,7 @@ network/32x32/earth.png
 ----version----
 language: en
 version: 1
-revision: d277427a-e70a-484f-bf35-45422cbf666b
+revision: 96d0d344-fed8-4b8d-b843-dea5e56f19c6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d277427a-e70a-484f-bf35-45422cbf666b
+96d0d344-fed8-4b8d-b843-dea5e56f19c6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160413T114535Z
+20160427T092008Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
