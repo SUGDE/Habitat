@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {564E5A86-2B4F-4AE8-ADF5-F50A5873AC4C}
+database: master
+path: /sitecore/content/UserGroup/Global/Teasers/Overview 3
+parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
+name: Overview 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {7307A3C4-B129-460E-820D-24928B21571F}
+templatekey: Tree Images Teaser
+
+----field----
+field: {AC49CE89-F884-4DFA-BDBE-5D24F765F17A}
+name: Image 1
+key: image 1
+content-length: 58
+
+<image mediaid="{1AC3E5BE-5359-4DF4-9395-AB4F007FFFA7}" />
+----field----
+field: {BCCF5D01-2938-4181-810B-FF82F27814F0}
+name: Image 2
+key: image 2
+content-length: 58
+
+<image mediaid="{269002E6-B52B-4BB5-A709-D4F4BA7D19F6}" />
+----field----
+field: {AE028312-A96C-4651-970A-3ECEB19049D4}
+name: Image 3
+key: image 3
+content-length: 58
+
+<image mediaid="{D21983B3-FA6B-46BF-B0DA-FAD3F226B0A0}" />
+----version----
+language: en
+version: 1
+revision: bfb08029-a69c-4b4e-9138-aa716ea84058
+
+----field----
+field: {3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}
+name: Title
+key: title
+content-length: 40
+
+Rückblick: 3. Sitecore Usergroup Treffen
+----field----
+field: {7C7EA1D5-BF8A-435B-91D3-8A809A1BF3D2}
+name: Text
+key: text
+content-length: 1347
+
+<p style="color: #666666; margin-bottom: 10px; background-color: #ffffff;">Bei der letzten Veranstaltung der Sitecore Usergroup trafen sich rund 30 Entwickler, Anwender und Projektmanager aus Sitecore-Agenturen und Unternehmen. Als Veranstaltungsort wurde diesmal das „Historische Museum Bielefeld“ genutzt.</p>
+<p style="color: #666666; margin-bottom: 10px; background-color: #ffffff;">Inhaltlich gab es folgende Schwerpunkte:</p>
+<ul style="color: #666666; margin-bottom: 10px; background-color: #ffffff;">
+    <li>Evaluierung einer Hybris-Anbindung an Sitecore mittels Commerce Connect (Friederike Heinze, .comspace)</li>
+    <li>The good, the bad and the ugly Sitecore module (Maksym Ponomarenko, netzkern)</li>
+    <li>Vorstellung CRM Connector – MS Dynamics (Friederike Heinze, .comspace)</li>
+    <li>Gemeinsamer Wissens- und Erfahrungsaustausch</li>
+    <li style="margin-bottom: 0px;">Kennenlernen und Vernetzung der SUGDE-Teilnehmer</li>
+</ul>
+<p style="color: #666666; background-color: #ffffff;">Nach dem offiziellen Programm gab es eine Führung in der historischen Produktionsstätte der Bielefelder Wäschefabrik und anschließend ein gemeinsames Abendessen. Alle Teilnehmer waren sich einig, dieses Format zukünftig weiter inhaltlich voranzutreiben und weiterhin Ihre Ideen mit in die Gestaltung der Usergroup einfließen zu lassen.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160412T162920Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bfb08029-a69c-4b4e-9138-aa716ea84058
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160413T085106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

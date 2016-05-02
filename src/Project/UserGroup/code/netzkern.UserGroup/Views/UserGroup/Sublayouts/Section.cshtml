@@ -1,0 +1,10 @@
+﻿@using Sitecore
+@using netzkern.UserGroup
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{ var useStaticPlaceholderNames = Model.Rendering.Parameters[Templates.SectionSublyoutProperties.Fields.Section_ID_FieldName]; }
+    <section id="@useStaticPlaceholderNames" class="vc_row wpb_row vc_row-fluid">
+      
+     @Html.Sitecore().DynamicPlaceholder("section", false) 
+    </section>

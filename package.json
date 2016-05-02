@@ -18,10 +18,25 @@
     "run-sequence": "^1.1.4",
     "vinyl": "^1.1.0",
     "gulp-rimraf": "^0.2.0",
-    "rimraf": "^2.4.3",    
+    "rimraf": "^2.4.3",
     "xmlpoke": "^0.1.12"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-msbuild": "^0.2.13",
+    "gulp-newer": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "path": "^0.12.7",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.1.5",
+    "xmlpoke": "^0.1.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

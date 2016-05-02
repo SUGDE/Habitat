@@ -109,9 +109,12 @@
     <Content Include="Views\Teasers\TitleImageTeaser.cshtml" />
     <Content Include="Views\Teasers\TitleSummaryTeaser.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="App_Config\Include\Feature\Feature.Teasers.Serialization.config" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="Views\Teasers\UserGroup\ThreeImagesTeaser.cshtml" />
+    <Content Include="Views\Teasers\UserGroup\InfoTeaser.cshtml" />
+    <Content Include="Views\Teasers\UserGroup\IcoTeasersList.cshtml" />
+    <Content Include="Views\Teasers\UserGroup\LeftImageTeaser.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,6 +128,8 @@
   <ItemGroup>
     <Compile Include="Models\AccordeonModel.cs" />
     <Compile Include="Controller\TeasersController.cs" />
+    <Compile Include="Models\IconTeaserModel.cs" />
+    <Compile Include="Models\InfoTeaserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AccordeonElementsRespository.cs" />
     <Compile Include="Services\HumanFriendlyIntegerService.cs" />
