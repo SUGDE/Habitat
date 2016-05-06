@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemIconCache>
   <Item ItemPath="/sitecore/system" ItemIcon="/temp/IconCache/People/16x16/workstation1.png" />
+  <Item ItemPath="/sitecore/system/Settings" ItemIcon="/temp/IconCache/Applications/16x16/preferences.png" />
+  <Item ItemPath="/sitecore/system/Settings/Security" ItemIcon="/~/icon/Applications/16x16/folder.png.aspx" />
+  <Item ItemPath="/sitecore/system/Settings/Security/Profiles" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/system/Settings/Security/Profiles/Common/UserProfile" ItemIcon="/temp/IconCache/People/32x32/woman2.png" />
 </ItemIconCache>

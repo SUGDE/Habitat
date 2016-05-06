@@ -119,6 +119,7 @@
     <Content Include="Views\PageContent\PageTeaser.cshtml" />
     <Content Include="Views\PageContent\UserGroup\Highlight.cshtml" />
     <Content Include="Views\PageContent\UserGroup\Fact.cshtml" />
+    <Content Include="Views\PageContent\UserGroup\FunFact.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
