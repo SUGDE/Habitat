@@ -119,6 +119,7 @@
     <Content Include="Views\Navigation\_SecondaryMenuItems.cshtml" />
     <Content Include="Views\Navigation\LinkMenu.cshtml" />
     <Content Include="Views\Navigation\TopNavigation.cshtml" />
+    <Content Include="Views\Navigation\PostfooterNavigation.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="Views\Navigation\PrimaryMenu.cshtml" />
     <Content Include="Views\Navigation\SecondaryMenu.cshtml" />

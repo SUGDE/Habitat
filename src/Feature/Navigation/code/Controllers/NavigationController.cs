@@ -51,6 +51,12 @@
     {
       var item = this._navigationRepository.GetPrimaryMenu();
       return this.View("TopNavigation", item);
-    } 
+    }
+     
+    public ActionResult PostfooterNavigation()
+    {
+      var item = this._navigationRepository.GetPrimaryMenu();
+      return this.View("PostfooterNavigation", item);
+    }
   }
 }

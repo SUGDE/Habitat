@@ -2,9 +2,9 @@
 version: 1
 id: {DD878974-5747-4121-828C-B9F29989D2A4}
 database: master
-path: /sitecore/layout/Renderings/Feature/Navigation/UserGroup/FooterMenu
+path: /sitecore/layout/Renderings/Feature/Navigation/UserGroup/Postfooter Navigation
 parent: {A92E818B-3CB1-441E-AD8D-94B137481372}
-name: FooterMenu
+name: Postfooter Navigation
 master: {00000000-0000-0000-0000-000000000000}
 template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
 templatekey: Controller rendering
@@ -20,13 +20,13 @@ Sitecore.Feature.Navigation.Controllers.NavigationController, Sitecore.Feature.N
 field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
 name: Controller Action
 key: controller action
-content-length: 10
+content-length: 20
 
-FooterMenu
+PostfooterNavigation
 ----version----
 language: en
 version: 1
-revision: 9d671c7b-64d2-412f-a264-6b9294f32e3b
+revision: 458a0192-1895-4743-99fc-832063250ba8
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9d671c7b-64d2-412f-a264-6b9294f32e3b
+458a0192-1895-4743-99fc-832063250ba8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160411T105454Z
+20160510T112552Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

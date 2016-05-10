@@ -1,15 +1,14 @@
 ﻿@using Sitecore.Feature.Navigation
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
-@model Sitecore.Feature.Navigation.Models.NavigationItems
-
+@model Sitecore.Feature.Navigation.Models.NavigationItems 
             <div id="nav" class="collapse navbar-collapse">
                 <ul id="menu-primary" class="nav navbar-nav navbar-right">
                     @{var i = 0; }
                     @foreach (var naviItem in Model.Items)
                     {
                       var className = i == Model.Items.Count - 1 ? "menu-item menu-item-type-custom menu-item-object-custom menu-item-884": string.Empty;
-                        <li>
-                            <a href="@naviItem.Url" class="@className" target="@naviItem.Target">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), naviItem.Item)</a> 
+                        <li  class="@className">
+                            <a href="@naviItem.Url" target="@naviItem.Target">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), naviItem.Item)</a> 
                         </li>
 
                         i++; 
