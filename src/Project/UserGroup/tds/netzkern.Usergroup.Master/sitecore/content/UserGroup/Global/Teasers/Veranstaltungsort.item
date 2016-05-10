@@ -9,18 +9,18 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {C15A3F42-4604-4E6C-AF35-8FA86F148C43}
 templatekey: Info Teaser
 
-----field----
-field: {102A6AEE-C4B8-4D12-B4ED-347B0B9ED66D}
-name: InfoItems
-key: infoitems
-content-length: 38
-
-{14A1BBF6-EF87-4F1B-8827-B4B85860C7B9}
 ----version----
 language: en
 version: 1
-revision: 19e6a408-f739-4160-ac21-1cfcc38fa569
+revision: 7eba68c9-ddae-4562-ac46-22f1ccfc6f21
 
+----field----
+field: {9E942565-677F-491C-A0AC-6B930E37342A}
+name: AccordeonSelector
+key: accordeonselector
+content-length: 38
+
+{14A1BBF6-EF87-4F1B-8827-B4B85860C7B9}
 ----field----
 field: {0F6B5546-E0AB-4487-81DE-640C1AA1B65B}
 name: TeaserImage
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-19e6a408-f739-4160-ac21-1cfcc38fa569
+7eba68c9-ddae-4562-ac46-22f1ccfc6f21
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T145520Z
+20160420T154226Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

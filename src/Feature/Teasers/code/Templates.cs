@@ -97,8 +97,8 @@
         public static readonly ID Image = new ID("{0F6B5546-E0AB-4487-81DE-640C1AA1B65B}");
         public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
 
-        public static readonly ID InfoItems = new ID("{102A6AEE-C4B8-4D12-B4ED-347B0B9ED66D}");
-        public const string InfoItems_FieldName = "InfoItems"; 
+        public static readonly ID AccordeonSelector = new ID("{9E942565-677F-491C-A0AC-6B930E37342A}");
+        public const string AccordeonSelector_FieldName = "AccordeonSelector"; 
       }
     }
 

@@ -3,6 +3,7 @@
 @using Sitecore.Data.Items
 @using System.Linq
 @using Sitecore.Feature.Teasers.Repositories
+@using Sitecore.Feature.Teasers.Models
 @model Sitecore.Mvc.Presentation.RenderingModel
 @{ var elements = Model.Item == null ? new List<Item>() : AccordeonElementsRespository.Get(Model.Item).ToList(); }
  
@@ -28,19 +29,19 @@
                 <div class="wpb_wrapper">
                      
                     @{
-                        var infoItem = elements[i];
+                        var infoElement = new IconTeaserModel(elements[i]);
                         i++;
                     }
                     <div class="feature text-center ">
-                        @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem)
+                        @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoElement)
                     </div>
 
                     @if (i < elements.Count)
                     {
-                        var infoItem2 = elements[i];
+                        var infoElement2 = new IconTeaserModel(elements[i]);
                         i++;
                         <div class="feature text-center ">
-                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoItem2)
+                            @Html.Partial("~/Views/Teasers/UserGroup/IcoTeaser.cshtml", infoElement2)
                         </div>
                     } 
                 </div>

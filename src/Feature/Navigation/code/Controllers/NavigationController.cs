@@ -34,7 +34,7 @@
     {
       var item = this._navigationRepository.GetSecondaryMenuItem();
       return this.View("SecondaryMenu", item);
-    }
+    } 
 
     public ActionResult LinkMenu()
     {
@@ -45,6 +45,18 @@
       var item = RenderingContext.Current.Rendering.Item;
       var items = this._navigationRepository.GetLinkMenuItems(item);
       return this.View("LinkMenu", items);
+    }
+
+    public ActionResult TopNavigation()
+    {
+      var item = this._navigationRepository.GetPrimaryMenu();
+      return this.View("TopNavigation", item);
+    }
+     
+    public ActionResult PostfooterNavigation()
+    {
+      var item = this._navigationRepository.GetPrimaryMenu();
+      return this.View("PostfooterNavigation", item);
     }
   }
 }
