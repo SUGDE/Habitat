@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Software/16x16/component_yellow.png" />
+  <Item ItemPath="/sitecore/templates/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+</ItemIconCache>
