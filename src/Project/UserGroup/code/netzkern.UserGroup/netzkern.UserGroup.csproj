@@ -133,6 +133,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Styles\UserGroup\dashicons.min.css" />
     <Content Include="Assets\css\admin-bar-rtl.css" />
     <Content Include="Assets\css\admin-bar-rtl.min.css" />
     <Content Include="Assets\css\admin-bar.css" />
@@ -1326,10 +1327,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="App_Config\Include\Project\netzkern.UserGroup.Website.config">
       <SubType>Designer</SubType>

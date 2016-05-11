@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {79AE0678-4AF2-45D4-9563-38911C828332}
+database: master
+path: /sitecore/content/UserGroup/Global/Teasers/Agenda Elements/Habitat
+parent: {DB64FD94-0BE6-4FBB-86CF-9E513890355F}
+name: Habitat
+master: {00000000-0000-0000-0000-000000000000}
+template: {329536A9-1AEC-46DD-BC61-4F373CB24ED6}
+templatekey: AgendaElementTeaser
+
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+30 Minuten
+----field----
+field: {5F084F71-A92C-4512-9E76-FECD94E528F8}
+name: Time
+key: time
+content-length: 16
+
+20160415T030000Z
+----field----
+field: {FD114617-1CD8-4D21-A4CF-56722F2F802C}
+name: Preseters
+key: preseters
+content-length: 38
+
+{78958915-F537-4B67-8095-E266D85BCBDB}
+----version----
+language: en
+version: 1
+revision: 5009fff5-4f62-4024-82e9-48bbf57db0f4
+
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 38
+
+Habitat – Ein neues Sitecore Framework
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160415T221806Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5009fff5-4f62-4024-82e9-48bbf57db0f4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160419T121954Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

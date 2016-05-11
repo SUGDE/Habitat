@@ -42,19 +42,63 @@
         public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
       }
     }
-    
+     
+    public struct AccordionElementTeaser
+    {
+      public static ID ID = new ID("{49073CB7-D9A4-426C-8581-8FD84E522B97}");
+
+      public struct Fields
+      {
+        public static readonly ID Time = new ID("{5F084F71-A92C-4512-9E76-FECD94E528F8}");
+        public const string Time_FieldName = "Time";
+
+        public static readonly ID Presenters = new ID("{FD114617-1CD8-4D21-A4CF-56722F2F802C}");
+        public const string Presenters_FieldName = "Presenters";
+
+        public static readonly ID Duration = new ID("{9441D365-53B0-4DAF-A8E3-D6A7F1C79229}");
+        public const string Duration_FieldName = "Duration";
+         
+
+        public static readonly ID Title = new ID("{4A59D072-5B41-4A79-A157-2B2CCAC10F2B}");
+        public static readonly ID Summary = new ID("{13D97A52-7C4E-407C-960D-FADDE8A3C1B1}");
+        public static readonly ID Image = new ID("{0F6B5546-E0AB-4487-81DE-640C1AA1B65B}");
+        public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
+      }
+    }
+     
+    public struct Presenters
+    {
+      public static ID ID = new ID("{FF8F5169-649A-493B-8434-4186DF31AD02}");
+
+      public struct Fields
+      {
+        public static readonly ID Title = new ID("{204FB0AF-2F43-4769-BFC9-A43DFBD01357}");
+        public const string Title_FieldName = "Title";
+
+        public static readonly ID Name = new ID("{7B931692-6576-4E23-A138-75578BCF1C76}");
+        public const string Name_FieldName = "Name";
+
+        public static readonly ID Position = new ID("{1C58CACE-03E3-4ED2-8BC7-EE75D707FF03}");
+        public const string Position_FieldName = "Position";
+
+        public static readonly ID Company = new ID("{528AF702-A62E-4D67-8DB5-553612CC95C8}");
+        public const string Company_FieldName = "Company";
+      }
+    }
+
     public struct InfoTeaser
     {
       public static ID ID = new ID("{6B4D1DD5-9D04-4BFC-8780-518E77E6A7D3}");
 
       public struct Fields
       {
-        public static readonly ID Title = new ID("{26470A5C-42A5-4EB4-94F8-689BC958EE9E}");
-        public const string Title_FieldName = "Title";
-        public static readonly ID Text = new ID("{9ED44A1F-E0DB-4935-A9DF-106B1B9B70CE}");
-        public const string Text_FieldName = "Text";
-        public static readonly ID InfoItems = new ID("{102A6AEE-C4B8-4D12-B4ED-347B0B9ED66D}");
-        public const string InfoItems_FieldName = "InfoItems"; 
+        public static readonly ID Title = new ID("{4A59D072-5B41-4A79-A157-2B2CCAC10F2B}");
+        public static readonly ID Summary = new ID("{13D97A52-7C4E-407C-960D-FADDE8A3C1B1}");
+        public static readonly ID Image = new ID("{0F6B5546-E0AB-4487-81DE-640C1AA1B65B}");
+        public static readonly ID Link = new ID("{E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}");
+
+        public static readonly ID AccordeonSelector = new ID("{9E942565-677F-491C-A0AC-6B930E37342A}");
+        public const string AccordeonSelector_FieldName = "AccordeonSelector"; 
       }
     }
 

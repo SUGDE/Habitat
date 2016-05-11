@@ -108,6 +108,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Identity\Copyright.cshtml" />
     <Content Include="Views\Identity\UserGroup\Map.cshtml" />
+    <Content Include="Views\Identity\UserGroup\HeaderLogo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>

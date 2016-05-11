@@ -43,7 +43,7 @@
 
       return items;
     }
-
+     
     public NavigationItems GetPrimaryMenu()
     {
       var navItems = this.GetChildNavigationItems(this.NavigationRoot, 0, 1);
@@ -51,7 +51,7 @@
       this.AddRootToPrimaryMenu(navItems);
       return navItems;
     }
-
+    
     private void AddRootToPrimaryMenu(NavigationItems navItems)
     {
       if (!this.IncludeInNavigation(this.NavigationRoot))

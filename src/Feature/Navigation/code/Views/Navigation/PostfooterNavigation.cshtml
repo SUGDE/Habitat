@@ -1,0 +1,11 @@
+﻿@using Sitecore.Feature.Navigation 
+@model Sitecore.Feature.Navigation.Models.NavigationItems
+
+<ul id="menu-footer" class="list-unstyled list-inline pull-right uppercase"> 
+    @foreach (var naviItem in Model.Items)
+    {
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="@naviItem.Url" target="@naviItem.Target">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), naviItem.Item)</a>  
+        </li>
+    }
+</ul> 

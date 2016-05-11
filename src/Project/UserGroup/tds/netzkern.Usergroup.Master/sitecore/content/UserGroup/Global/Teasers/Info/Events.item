@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {C6F20873-1208-4BA6-ADEC-616886FD00B8}
+id: {50B7F6EE-D341-4C11-A702-92BE65E65ECD}
 database: master
-path: /sitecore/content/UserGroup/Global/Teasers/Austausch
-parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
-name: Austausch
+path: /sitecore/content/UserGroup/Global/Teasers/Info/Events
+parent: {637C259E-102B-464E-96DF-A8260147FDF9}
+name: Events
 master: {00000000-0000-0000-0000-000000000000}
 template: {898DD929-0775-47B6-83A2-B954F50253E7}
 templatekey: Ico Teaser
@@ -12,22 +12,22 @@ templatekey: Ico Teaser
 ----version----
 language: en
 version: 1
-revision: 58712d76-f6ee-4321-a90c-753b5bf96af1
+revision: 58f5d0d6-edc0-49f0-baf1-f23961c55549
 
 ----field----
 field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
 name: TeaserTitle
 key: teasertitle
-content-length: 9
+content-length: 6
 
-Austausch
+Events
 ----field----
 field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
 name: TeaserSummary
 key: teasersummary
-content-length: 107
+content-length: 133
 
-Ein regelmäßiger Austausch an wechselnden Orten bietet Ihnen ein hervorragendes Netzwerk – deutschlandweit.
+Sie gestalten die Events nach Ihren Interessen mit – bringen Sie sich mit Fachvorträgen, Problemstellungen oder „best practices“ ein.
 ----field----
 field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
 name: IcoClass
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160414T123750Z
+20160414T123819Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-58712d76-f6ee-4321-a90c-753b5bf96af1
+58f5d0d6-edc0-49f0-baf1-f23961c55549
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T123812Z
+20160415T222507Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

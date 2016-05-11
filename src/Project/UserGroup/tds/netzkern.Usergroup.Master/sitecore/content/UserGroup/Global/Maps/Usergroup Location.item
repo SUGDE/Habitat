@@ -12,15 +12,15 @@ templatekey: Map
 ----version----
 language: en
 version: 1
-revision: 60649d9b-9560-4d52-9fb6-10abbb3d242b
+revision: e6fca1f5-899f-44bc-98fa-9ed24d1f448a
 
 ----field----
 field: {0948AA52-7461-4242-B621-DDBADCE77B1B}
 name: Logo
 key: logo
-content-length: 58
+content-length: 65
 
-<image mediaid="{8BEC670E-A1A6-4568-ACF9-EB6528EBD136}" />
+<image mediaid="{8BEC670E-A1A6-4568-ACF9-EB6528EBD136}" ></image>
 ----field----
 field: {7B8CB591-76DF-428D-8BDE-1C225D9F3DCE}
 name: Latitude
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-60649d9b-9560-4d52-9fb6-10abbb3d242b
+e6fca1f5-899f-44bc-98fa-9ed24d1f448a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160413T102232Z
+20160413T111745Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -77,3 +77,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

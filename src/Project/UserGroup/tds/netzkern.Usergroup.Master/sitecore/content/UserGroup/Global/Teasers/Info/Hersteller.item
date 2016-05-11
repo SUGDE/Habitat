@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {DF95852F-C3BB-4B8E-B288-E1FE93A5C360}
+id: {ECB57AB4-3E61-4ED5-B3DE-C67BC7DB8927}
 database: master
-path: /sitecore/content/UserGroup/Global/Teasers/Kunde
-parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
-name: Kunde
+path: /sitecore/content/UserGroup/Global/Teasers/Info/Hersteller
+parent: {637C259E-102B-464E-96DF-A8260147FDF9}
+name: Hersteller
 master: {00000000-0000-0000-0000-000000000000}
 template: {898DD929-0775-47B6-83A2-B954F50253E7}
 templatekey: Ico Teaser
@@ -12,29 +12,29 @@ templatekey: Ico Teaser
 ----version----
 language: en
 version: 1
-revision: 91845a97-e07e-416e-8068-4f608ac6cf51
+revision: eea8b35f-b469-49db-885b-afe4d9b163c9
 
 ----field----
 field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
 name: TeaserTitle
 key: teasertitle
-content-length: 5
+content-length: 10
 
-Kunde
+Hersteller
 ----field----
 field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
 name: TeaserSummary
 key: teasersummary
-content-length: 99
+content-length: 110
 
-Durch Austausch von Wissen und Erfahrungen gewährleisten Sie Ihren Kunden die optimalsten Lösungen.
+Wir sind unabhängig vom Hersteller und haben gemeinsam eine gewichtige Stimme um Ihre Interessen zu vertreten.
 ----field----
 field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
 name: IcoClass
 key: icoclass
-content-length: 15
+content-length: 19
 
-pe-4x pe-7s-sun
+pe-4x pe-7s-network
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160414T123616Z
+20160414T123710Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-91845a97-e07e-416e-8068-4f608ac6cf51
+eea8b35f-b469-49db-885b-afe4d9b163c9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T123655Z
+20160415T222524Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

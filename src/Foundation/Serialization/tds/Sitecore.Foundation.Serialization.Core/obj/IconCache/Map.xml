@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemIconCache>
-  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Software/16x16/component_yellow.png" />
-  <Item ItemPath="/sitecore/templates/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
   <Item ItemPath="/sitecore/templates/Foundation" ItemIcon="/temp/IconCache/applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/templates/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
   <Item ItemPath="/sitecore/templates/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
 </ItemIconCache>

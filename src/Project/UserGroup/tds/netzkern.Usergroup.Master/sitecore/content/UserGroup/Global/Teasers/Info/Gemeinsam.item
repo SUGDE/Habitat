@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {50B7F6EE-D341-4C11-A702-92BE65E65ECD}
+id: {ECD37F9F-EF36-47D9-A2C5-921A4792B0D6}
 database: master
-path: /sitecore/content/UserGroup/Global/Teasers/Events
-parent: {F768359C-A6FB-4F94-8370-063997ED5CEE}
-name: Events
+path: /sitecore/content/UserGroup/Global/Teasers/Info/Gemeinsam
+parent: {637C259E-102B-464E-96DF-A8260147FDF9}
+name: Gemeinsam
 master: {00000000-0000-0000-0000-000000000000}
 template: {898DD929-0775-47B6-83A2-B954F50253E7}
 templatekey: Ico Teaser
@@ -12,29 +12,29 @@ templatekey: Ico Teaser
 ----version----
 language: en
 version: 1
-revision: 4865c85c-b81b-4a82-a379-7eecd294151e
+revision: 0d8da21d-feb8-4b65-b033-917c3969d640
 
 ----field----
 field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
 name: TeaserTitle
 key: teasertitle
-content-length: 6
+content-length: 9
 
-Events
+Gemeinsam
 ----field----
 field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
 name: TeaserSummary
 key: teasersummary
-content-length: 133
+content-length: 147
 
-Sie gestalten die Events nach Ihren Interessen mit – bringen Sie sich mit Fachvorträgen, Problemstellungen oder „best practices“ ein.
+Wir profitieren alle von Synergien – daher besteht die Usergroup aus Entwicklern, Anwendern und Kunden – egal ob Endkunde, Partner oder Hersteller.
 ----field----
 field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
 name: IcoClass
 key: icoclass
-content-length: 21
+content-length: 17
 
-pe-4x pe-7s-refresh-2
+pe-4x pe-7s-users
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160414T123819Z
+20160414T121129Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4865c85c-b81b-4a82-a379-7eecd294151e
+0d8da21d-feb8-4b65-b033-917c3969d640
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160414T123841Z
+20160415T222515Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
