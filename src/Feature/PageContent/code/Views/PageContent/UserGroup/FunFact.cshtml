@@ -1,11 +1,14 @@
 ﻿@using Sitecore.Feature.PageContent
 @model Sitecore.Mvc.Presentation.RenderingModel
 <div class="item">
-    <i class="@Model.Item[Templates.Fact.Fields.Ico_Class]"></i>
-
+    
     @if (Sitecore.Context.PageMode.IsExperienceEditor)
     {
         @Html.Sitecore().Field(Templates.Fact.Fields.Ico_Class_FieldName)
+    }
+    else
+    {
+        <i class="@Model.Item[Templates.Fact.Fields.Ico_Class]"></i>
     }
 
     <div class="desc">

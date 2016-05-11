@@ -5,20 +5,20 @@
 <div class="IcoTeaser">
     @if (Sitecore.Context.PageMode.IsExperienceEditor)
     {
-    @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), Model.Item)
+        @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), Model.Item)
     }
     else
     {
-    <i style="color:" class="@Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), Model.Item)"></i>
+        <i class="@Model.IcoClass"></i>
     }
+
     <h4 style="color:">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Title.ToString(), Model.Item)</h4>
     <p>@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Summary.ToString(), Model.Item)</p>
 
     @if (Model.Item.FieldHasValue(Templates.IcoTeaser.Fields.Link))
     {
-    @Html.Sitecore().Field(Templates.IcoTeaser.Fields.Link.ToString(), Model.Item, new
-    {
-        @class = "button button-xsmall button-line-light"
-    }) 
+        @Html.Sitecore().Field(Templates.IcoTeaser.Fields.Link.ToString(), Model.Item, new {
+           @class = "button button-xsmall button-line-light"
+       }) 
     }
-</div>
+</div> 

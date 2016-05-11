@@ -119,6 +119,7 @@
     <Content Include="Views\Teasers\UserGroup\LeftImageTeaser.cshtml" />
     <Content Include="Views\Teasers\UserGroup\ImageInfoTeaser.cshtml" />
     <Content Include="Views\Teasers\UserGroup\AgendaTeaser.cshtml" />
+    <Content Include="Views\Teasers\UserGroup\LeftIcoTeaser.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

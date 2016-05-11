@@ -1,25 +1,32 @@
 ----item----
 version: 1
-id: {FC4BBA22-2851-47C7-B4F6-B6521DA7C8CF}
+id: {B9412BE2-0F83-49A3-A56F-6C12E6066816}
 database: master
-path: /sitecore/layout/Renderings/Feature/Teasers/UserGroup/Info Teaser
+path: /sitecore/layout/Renderings/Feature/Teasers/UserGroup/Title Text Teaser
 parent: {EBA07682-F4A4-4260-A8BF-F9C2505D739E}
-name: Info Teaser
+name: Title Text Teaser
 master: {00000000-0000-0000-0000-000000000000}
-template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
-templatekey: Controller rendering
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
 
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 47
+
+/Views/Teasers/UserGroup/TitleTextTeaser.cshtml
 ----field----
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 73
+content-length: 63
 
-/sitecore/templates/Project/Common/Content Types/Teasers/Accordeon Teaser
+/sitecore/templates/Project/Common/Content Types/Teasers/Teaser
 ----version----
 language: en
 version: 1
-revision: 5f46a986-e684-4f90-8e83-921934c3781c
+revision: 8bc687e7-ffeb-47dc-91f2-f5f8a5e1898a
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5f46a986-e684-4f90-8e83-921934c3781c
+8bc687e7-ffeb-47dc-91f2-f5f8a5e1898a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160511T071706Z
+20160511T083552Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,20 @@
+﻿@using Sitecore.Feature.Teasers
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Feature.Teasers.Models.IconTeaserModel
+  
+<div class="item">
+    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+    @Html.Sitecore().Field(Templates.IcoTeaser.Fields.IcoClass.ToString(), Model.Item)
+    }
+    else
+    {
+    <i class="@Model.IcoClass"></i>
+    }
+
+    <div class="desc">
+        <p class="number">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Title)</p>
+        <p class="description">@Html.Sitecore().Field(Templates.IcoTeaser.Fields.Summary)</p>
+    </div>
+</div>
+

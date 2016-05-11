@@ -2,22 +2,29 @@
 version: 1
 id: {9EBA2C18-BFD1-4C9E-A8DC-3EB5A11520DF}
 database: master
-path: /sitecore/layout/Renderings/Feature/PageContent/UserGroup/FunFact
-parent: {C3CF749E-EEA3-46D5-9E4D-EFF40F7DBB23}
-name: FunFact
+path: /sitecore/layout/Renderings/Feature/Teasers/UserGroup/LeftIcoTeaser
+parent: {EBA07682-F4A4-4260-A8BF-F9C2505D739E}
+name: LeftIcoTeaser
 master: {00000000-0000-0000-0000-000000000000}
-template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
-templatekey: View rendering
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
 
 ----field----
-field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
-name: Path
-key: path
-content-length: 43
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 7
 
-/Views/PageContent/UserGroup/FunFact.cshtml
+Teasers
 ----field----
-field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 13
+
+LeftIcoTeaser
+----field----
+field: {13F89250-AD6B-4548-882E-118A12C18094}
 name: Parameters Template
 key: parameters template
 content-length: 0
@@ -27,20 +34,20 @@ content-length: 0
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
 key: datasource location
-content-length: 40
+content-length: 0
 
-/sitecore/content/UserGroup/Global/Facts
+
 ----field----
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 56
+content-length: 62
 
-/sitecore/templates/Project/UserGroup/Content Types/Fact
+/sitecore/templates/Project/UserGroup/Content Types/Ico Teaser
 ----version----
 language: en
 version: 1
-revision: 3b6d5250-4816-4392-8afc-7bd6b24f0986
+revision: 4cfa3d9f-4c48-4a14-948e-94036492d538
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3b6d5250-4816-4392-8afc-7bd6b24f0986
+4cfa3d9f-4c48-4a14-948e-94036492d538
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160412T152539Z
+20160511T071926Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
