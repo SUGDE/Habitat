@@ -17,7 +17,14 @@
                             </p>
                         
                             <h4></h4>
-                            <img class="img-responsive" src="@Model.Item.ImageUrl(Templates.TeaserContent.Fields.Image)" alt="">
+                            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                            {
+                                @Html.Sitecore().Field(Templates.InfoTeaser.Fields.Image.ToString(), Model.Item)
+                            }
+                            else
+                            {
+                                <img class="img-responsive" src="@Model.Item.ImageUrl(Templates.TeaserContent.Fields.Image)" alt="">
+                            }
                         </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4">

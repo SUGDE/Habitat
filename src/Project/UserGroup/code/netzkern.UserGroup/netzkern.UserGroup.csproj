@@ -133,6 +133,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\fonts-awesome.css" />
     <Content Include="Content\Styles\UserGroup\dashicons.min.css" />
     <Content Include="Assets\css\admin-bar-rtl.css" />
     <Content Include="Assets\css\admin-bar-rtl.min.css" />

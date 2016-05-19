@@ -1,18 +1,32 @@
 ----item----
 version: 1
-id: {54F24AD7-A9C4-40A7-A2F4-0C8F7FF2260B}
+id: {E119C1CE-182F-4F46-AFA0-0974C8B25A05}
 database: master
-path: /sitecore/content/UserGroup/Global/Links/Postfooter Navigation
-parent: {7A059629-21BF-4C3F-951B-9A0050FEDCD6}
-name: Postfooter Navigation
+path: /sitecore/content/UserGroup/Global/Teasers/Agendas/Hamburg Agenda Elements/Know your Audience Wege zur integrierten digitalen Strategie
+parent: {DB64FD94-0BE6-4FBB-86CF-9E513890355F}
+name: Know your Audience Wege zur integrierten digitalen Strategie
 master: {00000000-0000-0000-0000-000000000000}
-template: {AC7394D5-2AA7-4FDB-A7D8-B1B87F9FA661}
-templatekey: Link Menu
+template: {329536A9-1AEC-46DD-BC61-4F373CB24ED6}
+templatekey: AgendaElementTeaser
 
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 5
+
+60min
+----field----
+field: {5F084F71-A92C-4512-9E76-FECD94E528F8}
+name: Time
+key: time
+content-length: 16
+
+20160519T133000Z
 ----version----
 language: de-DE
 version: 1
-revision: c94af3d5-713b-43c5-b0b9-aed787d8ae1d
+revision: 07855995-f409-4538-8731-315e53ffe722
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,7 +41,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160519T092224Z
+20160519T091309Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c94af3d5-713b-43c5-b0b9-aed787d8ae1d
+07855995-f409-4538-8731-315e53ffe722
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T092224Z
+20160519T091309Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -59,8 +73,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 01981ec4-70a5-4894-9e53-f019c5d2ecc3
+revision: 905fa7c9-7013-4959-9102-27a228cd5b64
 
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 62
+
+Know your Audience – Wege zur integrierten digitalen Strategie
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -74,21 +95,28 @@ name: __Created
 key: __created
 content-length: 16
 
-20160510T111756Z
+20160518T093924Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-01981ec4-70a5-4894-9e53-f019c5d2ecc3
+905fa7c9-7013-4959-9102-27a228cd5b64
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160510T111811Z
+20160519T115514Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

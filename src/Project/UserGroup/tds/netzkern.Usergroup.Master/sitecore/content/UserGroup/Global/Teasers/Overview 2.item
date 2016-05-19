@@ -31,9 +31,56 @@ content-length: 58
 
 <image mediaid="{9DDD6447-5073-464D-B6C7-A1D9DCD6BF31}" />
 ----version----
+language: de-DE
+version: 1
+revision: c31c2538-6686-4df8-b41a-27e4d929af1b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160519T091359Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c31c2538-6686-4df8-b41a-27e4d929af1b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160519T091359Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
 language: en
 version: 1
-revision: 570801f4-5db6-4b5e-9d1c-1839e19e4d4f
+revision: e76c4af8-3240-4d66-b821-a7f7f05db903
 
 ----field----
 field: {3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}
@@ -84,14 +131,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-570801f4-5db6-4b5e-9d1c-1839e19e4d4f
+e76c4af8-3240-4d66-b821-a7f7f05db903
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160413T085106Z
+20160415T222440Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

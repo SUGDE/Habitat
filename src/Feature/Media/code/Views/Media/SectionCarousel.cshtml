@@ -10,108 +10,120 @@
   var elements = MediaSelectorElementsRepository.Get(Model.Item).ToArray();
 }
 
-<section id="slider" class="vc_row wpb_row vc_row-fluid">
-    <div class="wpb_column vc_column_container vc_col-sm-12">
-        <div class="vc_column-inner ">
-            <div class="wpb_wrapper">
-                <div class="wpb_revslider_element wpb_content_element">
-                    <link href="http://fonts.googleapis.com/css?family=Open Sans:300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-                    <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullscreen-container" style="background-color:#E9E9E9;padding:0px;">
-                        <!-- START REVOLUTION SLIDER 5.1.6 fullscreen mode -->
-                        <div id="rev_slider_2_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.6">
-                            <ul>
-
-@foreach (var element in elements)
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
 {
+<ul>
+    @foreach (var element in elements)
+    {
                                 <!-- SLIDE  -->
-                                <li data-index="rs-10" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000"
-                                     data-thumb="@element.Item.ImageUrl(Templates.HasMedia.Fields.Thumbnail, new MediaUrlOptions())" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" 
-                                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                    <!-- MAIN IMAGE -->
-                                    <img src="@element.Item.ImageUrl(Templates.HasMediaImage.Fields.Image, new MediaUrlOptions())" alt="" width="960" height="637" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                    <!-- LAYERS -->
-                                    <!-- LAYER NR. 1 -->
-                                    <div class="tp-caption eventrhead   tp-resizeme" id="slide-10-layer-1" data-x="394" data-y="106" data-width="['553']" data-height="['123']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; min-width: 553px; max-width: 553px; max-width: 123px; max-width: 123px; white-space: normal; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">
-                                        @Html.Sitecore().Field(Templates.HasMedia.Fields.Title.ToString(), element.Item)
-                                    </div>
-                                    <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption eventrhead2   tp-resizeme" id="slide-10-layer-2" data-x="397" data-y="225" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:400;e:Power3.easeInOut;" data-transform_out="auto:auto;s:400;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">
-                                        @Html.Sitecore().Field(Templates.HasMedia.Fields.Description.ToString(), element.Item) 
-                                    </div>
-                                </li>
+    <li data-index="rs-10" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000"
+        data-thumb="@element.Item.ImageUrl(Templates.HasMedia.Fields.Thumbnail, new MediaUrlOptions())" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+   
+        <div>
+            @Html.Sitecore().Field(Templates.HasMedia.Fields.Title.ToString(), element.Item)
+        </div>
+        <!-- LAYER NR. 2 -->
+        <div>
+            @Html.Sitecore().Field(Templates.HasMedia.Fields.Description.ToString(), element.Item)
+        </div>
+        @Html.Sitecore().Field(Templates.HasMediaImage.Fields.Image.ToString(), element.Item)
+         
+    </li>
+    }
+    </ul>
+        return;
+        }
 
-                                @*<!-- SLIDE  -->
-                                <li data-index="rs-6" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-105-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                    <!-- MAIN IMAGE -->
-                                    <img src="http://194.145.122.12/wp-content/uploads/2015/06/SUGde-Museum-Wäschefabrik-105.jpg" alt="" width="1087" height="815" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                    <!-- LAYERS -->
-                                    <!-- LAYER NR. 1 -->
-                                    <div class="tp-caption eventrhead   tp-resizeme" id="slide-6-layer-1" data-x="398" data-y="241" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">Zu Gast in Bielefeld </div>
-                                    <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption eventrhead2   tp-resizeme" id="slide-6-layer-2" data-x="398" data-y="302" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:400;e:Power3.easeInOut;" data-transform_out="auto:auto;s:400;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">30. September 2015 </div>
-                                </li>
 
+        <section id="slider" class="vc_row wpb_row vc_row-fluid">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_revslider_element wpb_content_element">
+                            <link href="http://fonts.googleapis.com/css?family=Open Sans:300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+                            <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullscreen-container" style="background-color:#E9E9E9;padding:0px;">
+                                <!-- START REVOLUTION SLIDER 5.1.6 fullscreen mode -->
+                                <div id="rev_slider_2_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.6">
+                                    <ul>
+
+                                        @foreach (var element in elements)
+                                        {
                                 <!-- SLIDE  -->
-                                <li data-index="rs-11" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="http://194.145.122.12/wp-content/uploads/2016/03/Dresden-Elbe-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                    <!-- MAIN IMAGE -->
-                                    <img src="http://194.145.122.12/wp-content/uploads/2016/03/Dresden-Elbe.jpg" alt="" width="3264" height="2448" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                    <!-- LAYERS -->
-                                    <!-- LAYER NR. 1 -->
-                                    <div class="tp-caption eventrhead   tp-resizeme" id="slide-11-layer-1" data-x="382" data-y="55" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">Zu Gast in Dresden </div>
-                                    <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption eventrhead2   tp-resizeme" id="slide-11-layer-2" data-x="385" data-y="108" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:400;e:Power3.easeInOut;" data-transform_out="auto:auto;s:400;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">05. Mai 2015 </div>
-                                </li>*@
-}
-                            </ul>
-                            <div class="tp-bannertimer" style="height: 5px; background-color: rgba(0, 0, 0, 0.15);" />
+                                        <li data-index="rs-10" data-transition="slidevertical" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000"
+                                            data-thumb="@element.Item.ImageUrl(Templates.HasMedia.Fields.Thumbnail, new MediaUrlOptions())" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                                            data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                            <!-- MAIN IMAGE -->
+                                           
+                                            <img src="@element.Item.ImageUrl(Templates.HasMediaImage.Fields.Image, new MediaUrlOptions())" alt="" width="960" height="637" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                            
+                                            <!-- LAYERS -->
+                                            <!-- LAYER NR. 1 -->
+                                            <div class="tp-caption eventrhead   tp-resizeme" id="slide-10-layer-1" data-x="394" data-y="106" data-width="['553']" data-height="['123']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; min-width: 553px; max-width: 553px; max-width: 123px; max-width: 123px; white-space: normal; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 214, 88, 1.00);">
+                                                @Html.Sitecore().Field(Templates.HasMedia.Fields.Title.ToString(), element.Item)
+                                            </div>
+                                            <!-- LAYER NR. 2 -->
+                                            <div class="tp-caption eventrhead2   tp-resizeme" id="slide-10-layer-2" data-x="397" data-y="225" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:400;e:Power3.easeInOut;" data-transform_out="auto:auto;s:400;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);padding:0px 0px 0px 0px;border-color:rgba(255, 214, 88, 1.00);">
+                                                @Html.Sitecore().Field(Templates.HasMedia.Fields.Description.ToString(), element.Item)
+                                            </div>
+                                        </li>
+
+                                        }
+                                    </ul>
+                                    <div class="tp-bannertimer" style="height: 5px; background-color: rgba(0, 0, 0, 0.15);" />
+                                </div>
+                                 
+                                <script>
+                                    var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss = ".tp-caption.eventrhead,.eventrhead{font-size:58px;line-height:60px;font-weight:800;font-family:montserratbold;color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.eventrhead2,.eventrhead2{font-size:25px;line-height:31px;font-weight:300;font-family:\"Open Sans\";color:rgb(255,255,255);text-decoration:none;padding:0px;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}"; if (htmlDiv) { htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss; } else { var htmlDiv = document.createElement("div"); htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>"; document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]); }</script>
+                                    <script type="text/javascript">
+                                        /******************************************	-	PREPARE PLACEHOLDER FOR SLIDER	-	******************************************/
+                                        var setREVStartSize = function () {
+                                            try {
+                                                var e = new Object, i = jQuery(window).width(),
+                                                t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+                                                e.c = jQuery('#rev_slider_2_1');
+                                                e.gridwidth = [960];
+                                                e.gridheight = [350];
+                                                e.sliderLayout = "fullscreen";
+                                                e.fullScreenAutoWidth = 'off';
+                                                e.fullScreenAlignForce = 'off';
+                                                e.fullScreenOffsetContainer = '';
+                                                e.fullScreenOffset = '';
+                                                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+                                                    f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                                                }),
+                                                    t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                                                    var u = (e.c.width(), jQuery(window).height());
+                                                    if (void 0 != e.fullScreenOffsetContainer) {
+                                                        var c = e.fullScreenOffsetContainer.split(",");
+                                                        if (c) jQuery.each(c, function (e, i) {
+                                                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                                                        }),
+                                                            e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                                                    } f = u
+                                                }
+                                                else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight); e.c.closest(".rev_slider_wrapper").css({ height: f })
+                                            }
+                                            catch (d) { console.log("Failure at Presize of Slider:" + d) }
+                                        };
+                                        setREVStartSize(); function revslider_showDoubleJqueryError(sliderID) {
+                                            var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+                                            errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+                                            errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+                                            errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+                                            errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>"; jQuery(sliderID).show().html(errorMessage);
+                                        } var tpj = jQuery; tpj.noConflict(); var revapi2; tpj(document).ready(function () {
+                                            if (tpj("#rev_slider_2_1").revolution == undefined) { revslider_showDoubleJqueryError("#rev_slider_2_1"); }
+                                            else {
+                                                revapi2 = tpj("#rev_slider_2_1").show()
+                                                    .revolution({ sliderType: "standard", jsFileLocation: "//194.145.122.12/wp-content/plugins/revslider/public/assets/js/", sliderLayout: "fullscreen", dottedOverlay: "none", delay: 9000, navigation: { keyboardNavigation: "off", keyboard_direction: "horizontal", mouseScrollNavigation: "off", onHoverStop: "on", touch: { touchenabled: "on", swipe_threshold: 75, swipe_min_touches: 1, swipe_direction: "horizontal", drag_block_vertical: false } }, visibilityLevels: [1240, 1024, 778, 480], gridwidth: 960, gridheight: 350, lazyType: "none", shadow: 0, spinner: "off", stopLoop: "off", stopAfterLoops: -1, stopAtSlide: -1, shuffle: "off", autoHeight: "off", fullScreenAutoWidth: "off", fullScreenAlignForce: "off", fullScreenOffsetContainer: "", fullScreenOffset: "", hideThumbsOnMobile: "off", hideSliderAtLimit: 0, hideCaptionAtLimit: 0, hideAllCaptionAtLilmit: 0, debugMode: false, fallbacks: { simplifyAll: "off", nextSlideOnWindowFocus: "off", disableFocusListener: false, } });
+                                            }
+                                        });	/*ready*/</script>
+                           
+                            </div>
+                            <!-- END REVOLUTION SLIDER -->
                         </div>
-
-
-
-                        <script>
-                            var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss = ".tp-caption.eventrhead,.eventrhead{font-size:58px;line-height:60px;font-weight:800;font-family:montserratbold;color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.eventrhead2,.eventrhead2{font-size:25px;line-height:31px;font-weight:300;font-family:\"Open Sans\";color:rgb(255,255,255);text-decoration:none;padding:0px;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}"; if (htmlDiv) { htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss; } else { var htmlDiv = document.createElement("div"); htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>"; document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]); }</script>
-                        <script type="text/javascript">
-                            /******************************************	-	PREPARE PLACEHOLDER FOR SLIDER	-	******************************************/	
-                            var setREVStartSize=function(){	
-                                try{var e=new Object,i=jQuery(window).width(),
-                                    t=9999,r=0,n=0,l=0,f=0,s=0,h=0;	
-                                    e.c = jQuery('#rev_slider_2_1');	
-                                    e.gridwidth = [960];	
-                                    e.gridheight = [350];	
-                                    e.sliderLayout = "fullscreen";	
-                                    e.fullScreenAutoWidth='off';	
-                                    e.fullScreenAlignForce='off';	
-                                    e.fullScreenOffsetContainer= '';
-                                    e.fullScreenOffset='';	
-                                    if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){
-                                        f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)
-                                    }),
-                                        t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout)
-                                    {
-                                        var u=(e.c.width(),jQuery(window).height())                                        ;
-                                        if(void 0!=e.fullScreenOffsetContainer){
-                                            var c=e.fullScreenOffsetContainer.split(",");
-                                            if (c) jQuery.each(c,function(e,i){
-                                                u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),
-                                                e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}
-                                else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})		}
-                                catch(d){console.log("Failure at Presize of Slider:"+d)}	};		
-                            setREVStartSize();	function revslider_showDoubleJqueryError(sliderID) {	var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
-                                errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";	
-                                errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
-                                errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-                                errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>"; jQuery(sliderID).show().html(errorMessage);
-                            } var tpj = jQuery; tpj.noConflict(); var revapi2; tpj(document).ready(function () {
-                                if (tpj("#rev_slider_2_1").revolution == undefined) { revslider_showDoubleJqueryError("#rev_slider_2_1"); }
-                                else {
-                                    revapi2 = tpj("#rev_slider_2_1").show()
-                                        .revolution({ sliderType: "standard", jsFileLocation: "//194.145.122.12/wp-content/plugins/revslider/public/assets/js/", sliderLayout: "fullscreen", dottedOverlay: "none", delay: 9000, navigation: { keyboardNavigation: "off", keyboard_direction: "horizontal", mouseScrollNavigation: "off", onHoverStop: "on", touch: { touchenabled: "on", swipe_threshold: 75, swipe_min_touches: 1, swipe_direction: "horizontal", drag_block_vertical: false } }, visibilityLevels: [1240, 1024, 778, 480], gridwidth: 960, gridheight: 350, lazyType: "none", shadow: 0, spinner: "off", stopLoop: "off", stopAfterLoops: -1, stopAtSlide: -1, shuffle: "off", autoHeight: "off", fullScreenAutoWidth: "off", fullScreenAlignForce: "off", fullScreenOffsetContainer: "", fullScreenOffset: "", hideThumbsOnMobile: "off", hideSliderAtLimit: 0, hideCaptionAtLimit: 0, hideAllCaptionAtLilmit: 0, debugMode: false, fallbacks: { simplifyAll: "off", nextSlideOnWindowFocus: "off", disableFocusListener: false, } });
-                                }
-                            });	/*ready*/</script>
                     </div>
-                    <!-- END REVOLUTION SLIDER -->
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>

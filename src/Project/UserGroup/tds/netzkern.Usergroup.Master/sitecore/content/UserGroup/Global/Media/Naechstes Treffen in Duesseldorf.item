@@ -1,18 +1,18 @@
 ----item----
 version: 1
-id: {54F24AD7-A9C4-40A7-A2F4-0C8F7FF2260B}
+id: {E42A5EA2-06EF-4273-894A-E83ABBACCE56}
 database: master
-path: /sitecore/content/UserGroup/Global/Links/Postfooter Navigation
-parent: {7A059629-21BF-4C3F-951B-9A0050FEDCD6}
-name: Postfooter Navigation
+path: /sitecore/content/UserGroup/Global/Media/Naechstes Treffen in Duesseldorf
+parent: {C38C7D8D-D4CC-4350-9CFF-1104E079C9BE}
+name: Naechstes Treffen in Duesseldorf
 master: {00000000-0000-0000-0000-000000000000}
-template: {AC7394D5-2AA7-4FDB-A7D8-B1B87F9FA661}
-templatekey: Link Menu
+template: {F0369E1A-9030-4A05-A09C-EF09B664ED27}
+templatekey: Image
 
 ----version----
 language: de-DE
 version: 1
-revision: c94af3d5-713b-43c5-b0b9-aed787d8ae1d
+revision: a44d03ad-a69d-4d3e-a945-b62b80b830bb
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,7 +27,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160519T092224Z
+20160519T091202Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c94af3d5-713b-43c5-b0b9-aed787d8ae1d
+a44d03ad-a69d-4d3e-a945-b62b80b830bb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T092224Z
+20160519T091202Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -59,8 +59,22 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 01981ec4-70a5-4894-9e53-f019c5d2ecc3
+revision: c69b5789-f728-421e-b899-828b5b3c9f52
 
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 30
+
+Nächstes Treffen in Düsseldorf
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{F1BB6BAA-5D57-4E73-9381-FE882372A52C}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -74,21 +88,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20160510T111756Z
+20160518T091437Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-01981ec4-70a5-4894-9e53-f019c5d2ecc3
+c69b5789-f728-421e-b899-828b5b3c9f52
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160510T111811Z
+20160518T091906Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

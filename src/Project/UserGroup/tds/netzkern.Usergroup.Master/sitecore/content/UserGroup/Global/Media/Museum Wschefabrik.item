@@ -1,18 +1,18 @@
 ----item----
 version: 1
-id: {54F24AD7-A9C4-40A7-A2F4-0C8F7FF2260B}
+id: {33FECCDF-201F-4069-B623-3ECD4BC99AA8}
 database: master
-path: /sitecore/content/UserGroup/Global/Links/Postfooter Navigation
-parent: {7A059629-21BF-4C3F-951B-9A0050FEDCD6}
-name: Postfooter Navigation
+path: /sitecore/content/UserGroup/Global/Media/Museum Wschefabrik
+parent: {C38C7D8D-D4CC-4350-9CFF-1104E079C9BE}
+name: Museum Wschefabrik
 master: {00000000-0000-0000-0000-000000000000}
-template: {AC7394D5-2AA7-4FDB-A7D8-B1B87F9FA661}
-templatekey: Link Menu
+template: {F0369E1A-9030-4A05-A09C-EF09B664ED27}
+templatekey: Image
 
 ----version----
 language: de-DE
 version: 1
-revision: c94af3d5-713b-43c5-b0b9-aed787d8ae1d
+revision: ca4b1b9d-a68c-4805-84de-5f5d0a427e1e
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,7 +27,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160519T092224Z
+20160519T091156Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c94af3d5-713b-43c5-b0b9-aed787d8ae1d
+ca4b1b9d-a68c-4805-84de-5f5d0a427e1e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T092224Z
+20160519T091156Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -59,8 +59,29 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 01981ec4-70a5-4894-9e53-f019c5d2ecc3
+revision: 1c7b6431-fca2-4ba9-aa2d-4aa84d3fb41d
 
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 21
+
+Zu Gast in Bielefeld 
+----field----
+field: {302C9F8D-F703-4F76-A4AB-73D222648232}
+name: MediaDescription
+key: mediadescription
+content-length: 32
+
+<span>30. September 2015 </span>
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{81A7A9B2-0EE0-443A-B3B6-7C831EF14AA8}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -74,21 +95,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20160510T111756Z
+20160517T072207Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-01981ec4-70a5-4894-9e53-f019c5d2ecc3
+1c7b6431-fca2-4ba9-aa2d-4aa84d3fb41d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160510T111811Z
+20160517T072355Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

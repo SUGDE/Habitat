@@ -9,19 +9,23 @@
                 <div class="wpb_wrapper">
                     <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456849951123">
                         <figure class="wpb_wrapper vc_figure">
-                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="@Model.Item.ImageUrl(Templates.ThreeImagesTeaser.Fields.Image1)" class="vc_single_image-img attachment-thumbnail" alt="Dresden Restaurantjpg"></div>
+                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"> 
+                               @Html.Sitecore().Field(Templates.ThreeImagesTeaser.Fields.Image1.ToString(), Model.Item, new { @class = "vc_single_image-img attachment-thumbnail" })
+                            </div>
                         </figure>
-                    </div>
-
+                    </div> 
                     <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456825470480">
                         <figure class="wpb_wrapper vc_figure">
-                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="@Model.Item.ImageUrl(Templates.ThreeImagesTeaser.Fields.Image2)" class="vc_single_image-img attachment-thumbnail" alt="Blick auf Dresden"></div>
+                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey">
+                                @Html.Sitecore().Field(Templates.ThreeImagesTeaser.Fields.Image2.ToString(), Model.Item, new { @class = "vc_single_image-img attachment-thumbnail" })
+                              </div> 
                         </figure>
-                    </div>
-
+                    </div> 
                     <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1456825483117">
                         <figure class="wpb_wrapper vc_figure">
-                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="150" height="150" src="@Model.Item.ImageUrl(Templates.ThreeImagesTeaser.Fields.Image3)" class="vc_single_image-img attachment-thumbnail" alt="SUGDE Dresden"></div>
+                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey">
+                                @Html.Sitecore().Field(Templates.ThreeImagesTeaser.Fields.Image3.ToString(), Model.Item, new { @class = "vc_single_image-img attachment-thumbnail" })
+                            </div>
                         </figure>
                     </div>
                 </div>
