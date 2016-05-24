@@ -1,0 +1,154 @@
+----item----
+version: 1
+id: {8C0E556E-B51A-4213-BF78-6F1C2FF39C25}
+database: master
+path: /sitecore/content/UserGroup/Home/Contacts
+parent: {14AD2ABB-C18D-4F9D-9B16-D74789473C8A}
+name: Contacts
+master: {00000000-0000-0000-0000-000000000000}
+template: {49924FFE-3287-4E8C-8DC2-EA67861EC87B}
+templatekey: Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 206
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{2AA286B7-7FD4-44EE-96FC-992A2D1070F0}" s:id="{D94DB1AF-1CC1-4D94-880D-3BCC6A46AB79}" s:ph="page-content" /></d></r>
+----version----
+language: de-DE
+version: 1
+revision: 17cdc1f3-dcd8-4870-a76e-7c5feb31d7d6
+
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 7
+
+Kontakt
+----field----
+field: {2EDF38B7-EBCB-4DC4-B262-D9674BBCD0A1}
+name: Title
+key: title
+content-length: 7
+
+Kontact
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 266
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C626CB58-8B05-41F3-85EA-524B8B981B01}" p:before="r[@uid='{D94F8A5C-FE5E-4090-8B2E-46B170A2756A}']" s:id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}" s:ph="page-content" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160519T142746Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+17cdc1f3-dcd8-4870-a76e-7c5feb31d7d6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160523T162356Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 1
+revision: eed6b8a5-c145-47fc-b003-f04f242c4db5
+
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 7
+
+Contact
+----field----
+field: {2EDF38B7-EBCB-4DC4-B262-D9674BBCD0A1}
+name: Title
+key: title
+content-length: 8
+
+Contacts
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 266
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{2312FED8-EDDF-4DCF-8511-498E6472813E}" p:before="r[@uid='{D94F8A5C-FE5E-4090-8B2E-46B170A2756A}']" s:id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}" s:ph="page-content" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160519T142550Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eed6b8a5-c145-47fc-b003-f04f242c4db5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160523T160253Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

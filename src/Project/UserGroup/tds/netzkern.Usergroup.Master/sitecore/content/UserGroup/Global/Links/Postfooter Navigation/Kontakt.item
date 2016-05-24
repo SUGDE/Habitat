@@ -12,8 +12,22 @@ templatekey: Link Menu Item
 ----version----
 language: de-DE
 version: 1
-revision: f6e2ab6d-229e-433a-b86f-09826a3af427
+revision: d8274b98-e3ef-48e0-9968-ff9efe0bd521
 
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: NavigationTitle
+key: navigationtitle
+content-length: 7
+
+Kontakt
+----field----
+field: {FE71C30E-F07D-4052-8594-C3028CD76E1F}
+name: Link
+key: link
+content-length: 123
+
+<link text="" linktype="internal" class="" title="" target="" querystring="" id="{8C0E556E-B51A-4213-BF78-6F1C2FF39C25}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f6e2ab6d-229e-433a-b86f-09826a3af427
+d8274b98-e3ef-48e0-9968-ff9efe0bd521
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091017Z
+20160519T143514Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -59,22 +73,22 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 72d489c3-d5d8-4b67-a13b-3cede58bf281
+revision: 93059ab5-d77c-4451-811d-ed57caf262c8
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: NavigationTitle
 key: navigationtitle
-content-length: 7
+content-length: 8
 
-Kontakt
+Contacts
 ----field----
 field: {FE71C30E-F07D-4052-8594-C3028CD76E1F}
 name: Link
 key: link
-content-length: 88
+content-length: 44
 
-<link linktype="external" url="http://194.145.122.12/index.php/mc4wp-form-preview-9/" />
+<link linktype="external" url="/Contacts" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -95,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-72d489c3-d5d8-4b67-a13b-3cede58bf281
+93059ab5-d77c-4451-811d-ed57caf262c8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160510T112012Z
+20160519T143934Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

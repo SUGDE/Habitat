@@ -12,8 +12,22 @@ templatekey: Link Menu Item
 ----version----
 language: de-DE
 version: 1
-revision: 2fd1b2ed-218d-426e-b3d3-c0cc116b2f91
+revision: 237d43fc-ee67-46b4-8a9b-bf9d79465170
 
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: NavigationTitle
+key: navigationtitle
+content-length: 8
+
+Über uns
+----field----
+field: {FE71C30E-F07D-4052-8594-C3028CD76E1F}
+name: Link
+key: link
+content-length: 28
+
+<link linktype="internal" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2fd1b2ed-218d-426e-b3d3-c0cc116b2f91
+237d43fc-ee67-46b4-8a9b-bf9d79465170
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091043Z
+20160523T161948Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

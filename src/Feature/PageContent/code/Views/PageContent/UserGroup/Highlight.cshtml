@@ -16,7 +16,10 @@
         <div class="vc_column-inner ">
             <div class="wpb_wrapper">
                 <div id="DateCountdown" data-date="@Model.DateCountdownStr" style="width: 100%;"></div>
-                <script>
+              
+                @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+                {
+                  <script>
 			jQuery(document).ready(function($){
 				$("#DateCountdown").TimeCircles({
 					"animation": "smooth",
@@ -49,6 +52,7 @@
 				});
 				});
                 </script>
+                }
             </div>
         </div>
     </div>
