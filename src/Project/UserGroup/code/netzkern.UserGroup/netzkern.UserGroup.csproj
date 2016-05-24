@@ -2094,6 +2094,8 @@
     <None Include="Properties\PublishProfiles\Local Copy.pubxml" />
     <None Include="Properties\PublishProfiles\LocalCopy.pubxml" />
     <Content Include="Views\UserGroup\Sublayouts\Section.cshtml" />
+    <Content Include="Views\UserGroup\Sublayouts\OneColumn.cshtml" />
+    <Content Include="Views\UserGroup\Layouts\Page.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\foundation\Assets\code\Sitecore.Foundation.Assets.csproj">
