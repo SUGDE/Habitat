@@ -24,5 +24,16 @@ namespace Sitecore.Feature.Accounts.Controllers
     {
       return this.View("~/Views/Accounts/UserGroup/SubsribeNews.cshtml", model);
     }
+
+    public ActionResult Contacts()
+    {
+      return this.View("~/Views/Accounts/UserGroup/Contacts.cshtml", new Contacts());
+    }
+
+    [HttpPost]
+    public ActionResult Contacts(Contacts model)
+    {
+      return this.View("~/Views/Accounts/UserGroup/Contacts.cshtml", model);
+    }
   }
 }

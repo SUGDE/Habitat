@@ -40,9 +40,13 @@
     public static string FirstName => DictionaryRepository.Get("/Accounts/Captions/FirstName", "First name");
     public static string LastName => DictionaryRepository.Get("/Accounts/Captions/LastName", "Last name");
     public static string PhoneNumber => DictionaryRepository.Get("/Accounts/Captions/PhoneNumber", "Phone number");
+
+    public static string YourName => DictionaryRepository.Get("/Accounts/Captions/YourName", "Ihr Name (Pflichtfeld)");
+    public static string YourEmail => DictionaryRepository.Get("/Accounts/Captions/YourEmail", "Ihre E-Mail-Adresse (Pflichtfeld)");
+    public static string Subject => DictionaryRepository.Get("/Accounts/Captions/YourEmail", "Betreff");
+    public static string YourNews => DictionaryRepository.Get("/Accounts/Captions/YourNews", "Ihre Nachricht"); 
+
     
-
-
 
   }
 }
