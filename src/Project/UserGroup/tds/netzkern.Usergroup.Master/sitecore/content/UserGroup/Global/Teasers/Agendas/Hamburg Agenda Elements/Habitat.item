@@ -10,13 +10,6 @@ template: {329536A9-1AEC-46DD-BC61-4F373CB24ED6}
 templatekey: AgendaElementTeaser
 
 ----field----
-field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
-name: Duration
-key: duration
-content-length: 10
-
-30 Minuten
-----field----
 field: {5F084F71-A92C-4512-9E76-FECD94E528F8}
 name: Time
 key: time
@@ -33,8 +26,22 @@ content-length: 38
 ----version----
 language: de-DE
 version: 1
-revision: 1eec05b0-b26e-4e62-9818-261f871834a8
+revision: 3f48b4ce-7a6b-436a-b070-60867d92cea8
 
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 38
+
+Habitat – Ein neues Sitecore Framework
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+30 minuten
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1eec05b0-b26e-4e62-9818-261f871834a8
+3f48b4ce-7a6b-436a-b070-60867d92cea8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091302Z
+20160525T092754Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -89,6 +96,13 @@ key: teasertitle
 content-length: 38
 
 Habitat – Ein neues Sitecore Framework
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+30 Minuten
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

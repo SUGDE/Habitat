@@ -12,8 +12,22 @@ templatekey: Image
 ----version----
 language: de-DE
 version: 1
-revision: a44d03ad-a69d-4d3e-a945-b62b80b830bb
+revision: a2be647f-0a17-4a45-8ccc-b16813d5e2c4
 
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 30
+
+Nächstes Treffen in Düsseldorf
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{F1BB6BAA-5D57-4E73-9381-FE882372A52C}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a44d03ad-a69d-4d3e-a945-b62b80b830bb
+a2be647f-0a17-4a45-8ccc-b16813d5e2c4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091202Z
+20160525T092310Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

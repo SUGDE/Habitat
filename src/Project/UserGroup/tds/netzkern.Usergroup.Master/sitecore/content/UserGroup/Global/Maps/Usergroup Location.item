@@ -12,8 +12,29 @@ templatekey: Map
 ----version----
 language: de-DE
 version: 1
-revision: ffb585e6-f7fc-42c8-8c7c-e2f08baba320
+revision: dbcc8d9b-f9c4-4dea-bb9a-3c83d38a23fd
 
+----field----
+field: {0948AA52-7461-4242-B621-DDBADCE77B1B}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{8BEC670E-A1A6-4568-ACF9-EB6528EBD136}" />
+----field----
+field: {7B8CB591-76DF-428D-8BDE-1C225D9F3DCE}
+name: Latitude
+key: latitude
+content-length: 11
+
+53.56315688
+----field----
+field: {477D9545-3770-4228-AB9F-5FD82BAA10A5}
+name: Longitude
+key: longitude
+content-length: 10
+
+9.96803665
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ffb585e6-f7fc-42c8-8c7c-e2f08baba320
+dbcc8d9b-f9c4-4dea-bb9a-3c83d38a23fd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091110Z
+20160525T091931Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -10,24 +10,38 @@ template: {329536A9-1AEC-46DD-BC61-4F373CB24ED6}
 templatekey: AgendaElementTeaser
 
 ----field----
-field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
-name: Duration
-key: duration
-content-length: 5
-
-60min
-----field----
 field: {5F084F71-A92C-4512-9E76-FECD94E528F8}
 name: Time
 key: time
 content-length: 16
 
 20160519T133000Z
+----field----
+field: {FD114617-1CD8-4D21-A4CF-56722F2F802C}
+name: Preseters
+key: preseters
+content-length: 38
+
+{F3208CCB-C300-4354-BEE3-D1050CD6DE2C}
 ----version----
 language: de-DE
 version: 1
-revision: 07855995-f409-4538-8731-315e53ffe722
+revision: 1c2b0f51-2f7d-4915-b9dc-fe5a53084e38
 
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 62
+
+Know your Audience – Wege zur integrierten digitalen Strategie
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+60 minuten
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-07855995-f409-4538-8731-315e53ffe722
+1c2b0f51-2f7d-4915-b9dc-fe5a53084e38
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091309Z
+20160525T092908Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -82,6 +96,13 @@ key: teasertitle
 content-length: 62
 
 Know your Audience – Wege zur integrierten digitalen Strategie
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 5
+
+60min
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

@@ -19,8 +19,22 @@ content-length: 16
 ----version----
 language: de-DE
 version: 1
-revision: e35d0d70-a15b-4af4-8905-c760c88fb741
+revision: f2608bd0-d1f0-4f82-b48d-7c77b7bf7676
 
+----field----
+field: {AD6D30AC-C636-4313-9806-E8076BF19AEF}
+name: Title
+key: title
+content-length: 9
+
+Countdown
+----field----
+field: {D1FFA3E4-4C14-423E-B6E3-71FAE7F079AC}
+name: Text
+key: text
+content-length: 30
+
+bis zur nächsten Veranstaltung
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e35d0d70-a15b-4af4-8905-c760c88fb741
+f2608bd0-d1f0-4f82-b48d-7c77b7bf7676
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T090919Z
+20160525T091813Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

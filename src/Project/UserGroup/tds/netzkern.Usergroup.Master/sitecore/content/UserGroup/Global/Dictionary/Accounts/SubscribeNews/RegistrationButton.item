@@ -19,8 +19,15 @@ _registrationSubtitle
 ----version----
 language: de-DE
 version: 1
-revision: 7ce6aea3-42e1-486d-a63b-e5c0a834c59a
+revision: dcecfd75-f4f7-4830-a1a3-deee0d55b061
 
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 8
+
+Register
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7ce6aea3-42e1-486d-a63b-e5c0a834c59a
+dcecfd75-f4f7-4830-a1a3-deee0d55b061
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T090842Z
+20160525T091804Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

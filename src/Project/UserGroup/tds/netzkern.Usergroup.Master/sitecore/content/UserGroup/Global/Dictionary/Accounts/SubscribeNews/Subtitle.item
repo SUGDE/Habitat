@@ -19,8 +19,15 @@ _registrationSubtitle
 ----version----
 language: de-DE
 version: 1
-revision: da5fd7af-3486-4105-8e9b-225eb8995074
+revision: 9b110649-d223-425d-ba93-761b85e5d588
 
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 112
+
+Wir informieren Sie gerne über die nächsten Termine. Hier können Sie sich für unseren Event Newsletter anmelden.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-da5fd7af-3486-4105-8e9b-225eb8995074
+9b110649-d223-425d-ba93-761b85e5d588
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T090848Z
+20160525T091755Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

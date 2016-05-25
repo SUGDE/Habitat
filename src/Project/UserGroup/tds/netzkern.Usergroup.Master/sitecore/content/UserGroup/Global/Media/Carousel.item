@@ -12,8 +12,15 @@ templatekey: Carousel
 ----version----
 language: de-DE
 version: 1
-revision: 2b4eaf78-ef5e-4c66-9fe7-43c2425ca438
+revision: 6875d8db-de6d-48ab-a251-e664d6ca4dc6
 
+----field----
+field: {72EA8682-24D2-4BEB-951C-3E2164974105}
+name: MediaSelector
+key: mediaselector
+content-length: 155
+
+{E42A5EA2-06EF-4273-894A-E83ABBACCE56}|{129EA6B2-78B3-4A4E-BB4C-36F7787B0313}|{33FECCDF-201F-4069-B623-3ECD4BC99AA8}|{8820E615-8C0B-4E35-B98F-928C768D5DAC}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2b4eaf78-ef5e-4c66-9fe7-43c2425ca438
+6875d8db-de6d-48ab-a251-e664d6ca4dc6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091133Z
+20160525T092051Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

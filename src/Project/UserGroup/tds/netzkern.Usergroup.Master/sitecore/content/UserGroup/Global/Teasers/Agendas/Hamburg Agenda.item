@@ -9,11 +9,32 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {C15A3F42-4604-4E6C-AF35-8FA86F148C43}
 templatekey: Info Teaser
 
+----field----
+field: {9E942565-677F-491C-A0AC-6B930E37342A}
+name: AccordeonSelector
+key: accordeonselector
+content-length: 194
+
+{966BF715-1479-403E-94BC-4B6F4716F846}|{79AE0678-4AF2-45D4-9563-38911C828332}|{0B430627-D5BF-464B-B32F-C86FA9AB618F}|{E119C1CE-182F-4F46-AFA0-0974C8B25A05}|{A7489CC3-FF09-42CB-8BA0-5B15F5E91EC0}
 ----version----
 language: de-DE
 version: 1
-revision: 9a317041-3353-40e2-ac07-7506660ff07e
+revision: c1705c7d-54db-431c-9e29-53f93277c221
 
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 6
+
+Agenda
+----field----
+field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
+name: TeaserSummary
+key: teasersummary
+content-length: 29
+
+Sitecore Usergroup in Hamburg
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9a317041-3353-40e2-ac07-7506660ff07e
+c1705c7d-54db-431c-9e29-53f93277c221
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091247Z
+20160525T095103Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -61,13 +82,6 @@ language: en
 version: 1
 revision: 4afe69ba-fab9-451c-bfaa-757cb89f4182
 
-----field----
-field: {9E942565-677F-491C-A0AC-6B930E37342A}
-name: AccordeonSelector
-key: accordeonselector
-content-length: 194
-
-{966BF715-1479-403E-94BC-4B6F4716F846}|{79AE0678-4AF2-45D4-9563-38911C828332}|{0B430627-D5BF-464B-B32F-C86FA9AB618F}|{E119C1CE-182F-4F46-AFA0-0974C8B25A05}|{A7489CC3-FF09-42CB-8BA0-5B15F5E91EC0}
 ----field----
 field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
 name: TeaserTitle

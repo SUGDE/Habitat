@@ -12,8 +12,29 @@ templatekey: Image
 ----version----
 language: de-DE
 version: 1
-revision: 80cca744-a1c1-44c5-bc94-06e2a9627381
+revision: 39e34eac-d1a5-4723-a8db-92eeb23001a8
 
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 18
+
+Zu Gast in Dresden
+----field----
+field: {302C9F8D-F703-4F76-A4AB-73D222648232}
+name: MediaDescription
+key: mediadescription
+content-length: 76
+
+<span style="color: #999999; background-color: #f9f9f9;">05. Mai 2015</span>
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{7ED7ED60-9756-4B88-985F-1C500B175F44}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-80cca744-a1c1-44c5-bc94-06e2a9627381
+39e34eac-d1a5-4723-a8db-92eeb23001a8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091142Z
+20160525T092145Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

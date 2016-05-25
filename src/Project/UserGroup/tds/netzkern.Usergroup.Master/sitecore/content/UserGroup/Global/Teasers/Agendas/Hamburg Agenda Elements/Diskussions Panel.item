@@ -10,19 +10,73 @@ template: {329536A9-1AEC-46DD-BC61-4F373CB24ED6}
 templatekey: AgendaElementTeaser
 
 ----field----
-field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
-name: Duration
-key: duration
-content-length: 6
-
-15 min
-----field----
 field: {5F084F71-A92C-4512-9E76-FECD94E528F8}
 name: Time
 key: time
 content-length: 16
 
 20160519T143000Z
+----version----
+language: de-DE
+version: 1
+revision: d17d59c1-f590-47d9-8d84-8dc389b2ca72
+
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 17
+
+Diskussions Panel
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+15 minuten
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160525T092450Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d17d59c1-f590-47d9-8d84-8dc389b2ca72
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160525T092717Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
 ----version----
 language: en
 version: 1
@@ -35,6 +89,13 @@ key: teasertitle
 content-length: 17
 
 Diskussions Panel
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 6
+
+15 min
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

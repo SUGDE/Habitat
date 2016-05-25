@@ -9,11 +9,39 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {C15A3F42-4604-4E6C-AF35-8FA86F148C43}
 templatekey: Info Teaser
 
+----field----
+field: {9E942565-677F-491C-A0AC-6B930E37342A}
+name: AccordeonSelector
+key: accordeonselector
+content-length: 38
+
+{14A1BBF6-EF87-4F1B-8827-B4B85860C7B9}
 ----version----
 language: de-DE
 version: 1
-revision: cacdf65a-253e-466e-91d9-afdd44eec08b
+revision: 23bb7705-0f27-4dbd-865e-a4f5474508eb
 
+----field----
+field: {0F6B5546-E0AB-4487-81DE-640C1AA1B65B}
+name: TeaserImage
+key: teaserimage
+content-length: 58
+
+<image mediaid="{759D3C4C-4C23-4DEC-B0AB-4BB58B9C84D7}" />
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 17
+
+VERANSTALTUNGSORT
+----field----
+field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
+name: TeaserSummary
+key: teasersummary
+content-length: 164
+
+Wir sind zu Gast im einzigartigen Braugasthaus mit seinem unverkennbaren Charme, mitten in der Hamburger Sternschanze gelegen. Per Bahn sind Sie optimal angebunden.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cacdf65a-253e-466e-91d9-afdd44eec08b
+23bb7705-0f27-4dbd-865e-a4f5474508eb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091419Z
+20160525T094045Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -61,13 +89,6 @@ language: en
 version: 1
 revision: 7eba68c9-ddae-4562-ac46-22f1ccfc6f21
 
-----field----
-field: {9E942565-677F-491C-A0AC-6B930E37342A}
-name: AccordeonSelector
-key: accordeonselector
-content-length: 38
-
-{14A1BBF6-EF87-4F1B-8827-B4B85860C7B9}
 ----field----
 field: {0F6B5546-E0AB-4487-81DE-640C1AA1B65B}
 name: TeaserImage

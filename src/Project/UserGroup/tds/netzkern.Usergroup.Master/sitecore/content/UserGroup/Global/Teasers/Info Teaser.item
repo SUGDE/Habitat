@@ -9,11 +9,33 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {C15A3F42-4604-4E6C-AF35-8FA86F148C43}
 templatekey: Info Teaser
 
+----field----
+field: {9E942565-677F-491C-A0AC-6B930E37342A}
+name: AccordeonSelector
+key: accordeonselector
+content-length: 233
+
+{ECD37F9F-EF36-47D9-A2C5-921A4792B0D6}|{4DA23137-A331-4FE9-954B-F6F70C20EBC9}|{DF95852F-C3BB-4B8E-B288-E1FE93A5C360}|{C6F20873-1208-4BA6-ADEC-616886FD00B8}|{ECB57AB4-3E61-4ED5-B3DE-C67BC7DB8927}|{50B7F6EE-D341-4C11-A702-92BE65E65ECD}
 ----version----
 language: de-DE
 version: 1
-revision: 8bb3741e-d01a-4d22-8d98-94514a73ade7
+revision: cc98f539-25e1-44bf-8d84-9f83853a8556
 
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 42
+
+Werden Sie Mitglied der Sitecore Usergroup
+----field----
+field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
+name: TeaserSummary
+key: teasersummary
+content-length: 176
+
+Wir wollen Mehrwerte für Anwender und Nutzer von Sitecore-Produkten schaffen.
+Unsere Community ermöglicht einen aktiven Austausch zwischen Partnern, Kunden und dem Hersteller.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8bb3741e-d01a-4d22-8d98-94514a73ade7
+cc98f539-25e1-44bf-8d84-9f83853a8556
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091352Z
+20160525T093857Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -61,13 +83,6 @@ language: en
 version: 1
 revision: 0c67a302-fc90-4865-9436-6c5d5065ae9b
 
-----field----
-field: {9E942565-677F-491C-A0AC-6B930E37342A}
-name: AccordeonSelector
-key: accordeonselector
-content-length: 233
-
-{ECD37F9F-EF36-47D9-A2C5-921A4792B0D6}|{4DA23137-A331-4FE9-954B-F6F70C20EBC9}|{DF95852F-C3BB-4B8E-B288-E1FE93A5C360}|{C6F20873-1208-4BA6-ADEC-616886FD00B8}|{ECB57AB4-3E61-4ED5-B3DE-C67BC7DB8927}|{50B7F6EE-D341-4C11-A702-92BE65E65ECD}
 ----field----
 field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
 name: TeaserTitle

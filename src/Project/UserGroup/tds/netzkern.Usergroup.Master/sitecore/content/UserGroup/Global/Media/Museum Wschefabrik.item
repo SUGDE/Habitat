@@ -12,8 +12,29 @@ templatekey: Image
 ----version----
 language: de-DE
 version: 1
-revision: ca4b1b9d-a68c-4805-84de-5f5d0a427e1e
+revision: 5f3882b9-6e87-4e32-bc2f-8733187083f7
 
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 21
+
+Zu Gast in Bielefeld 
+----field----
+field: {302C9F8D-F703-4F76-A4AB-73D222648232}
+name: MediaDescription
+key: mediadescription
+content-length: 82
+
+<span style="color: #999999; background-color: #f9f9f9;">30. September 2015</span>
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{81A7A9B2-0EE0-443A-B3B6-7C831EF14AA8}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ca4b1b9d-a68c-4805-84de-5f5d0a427e1e
+5f3882b9-6e87-4e32-bc2f-8733187083f7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091156Z
+20160525T092245Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

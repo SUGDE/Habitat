@@ -12,8 +12,29 @@ templatekey: Image
 ----version----
 language: de-DE
 version: 1
-revision: aef2d646-6449-4cc0-990b-e53cfb1b196a
+revision: 664d23b6-7ec4-40b3-b1eb-04927acdc775
 
+----field----
+field: {63DDA48B-B0CB-45A7-9A1B-B26DDB41009B}
+name: MediaTitle
+key: mediatitle
+content-length: 18
+
+Zu Gast in Hamburg
+----field----
+field: {302C9F8D-F703-4F76-A4AB-73D222648232}
+name: MediaDescription
+key: mediadescription
+content-length: 82
+
+<span style="color: #999999; background-color: #f9f9f9;">03. M&auml;rz 2016</span>
+----field----
+field: {9F51DEAD-AD6E-41C2-9759-7BE17EB474A4}
+name: MediaImage
+key: mediaimage
+content-length: 58
+
+<image mediaid="{93325D59-D5C6-4485-A74E-4BEA67902A94}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-aef2d646-6449-4cc0-990b-e53cfb1b196a
+664d23b6-7ec4-40b3-b1eb-04927acdc775
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091150Z
+20160525T092219Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

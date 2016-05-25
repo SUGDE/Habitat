@@ -10,24 +10,31 @@ template: {329536A9-1AEC-46DD-BC61-4F373CB24ED6}
 templatekey: AgendaElementTeaser
 
 ----field----
-field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
-name: Duration
-key: duration
-content-length: 10
-
-90 Minuten
-----field----
 field: {5F084F71-A92C-4512-9E76-FECD94E528F8}
 name: Time
 key: time
 content-length: 16
 
 20160518T120000Z
+----field----
+field: {FD114617-1CD8-4D21-A4CF-56722F2F802C}
+name: Preseters
+key: preseters
+content-length: 38
+
+{4FA63B28-AC24-488A-88A9-3A7F27ED526A}
 ----version----
 language: de-DE
 version: 1
-revision: d870c0ae-68c4-4cb0-be29-939b8cac0978
+revision: 60e6b8d1-94b6-480d-a8ec-b6879985a29e
 
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+90 Minuten
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d870c0ae-68c4-4cb0-be29-939b8cac0978
+60e6b8d1-94b6-480d-a8ec-b6879985a29e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091317Z
+20160525T092859Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -82,6 +89,13 @@ key: teasertitle
 content-length: 21
 
 MongoDB – A new World
+----field----
+field: {9441D365-53B0-4DAF-A8E3-D6A7F1C79229}
+name: Duration
+key: duration
+content-length: 10
+
+90 Minuten
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

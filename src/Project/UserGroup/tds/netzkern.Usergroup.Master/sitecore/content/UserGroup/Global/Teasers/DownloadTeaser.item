@@ -19,8 +19,22 @@ content-length: 87
 ----version----
 language: de-DE
 version: 1
-revision: 3b11d956-7d64-4065-85f6-4c45693bf4c8
+revision: 152ab0ee-8a75-4d7a-a53a-d7b9cddced80
 
+----field----
+field: {0F6B5546-E0AB-4487-81DE-640C1AA1B65B}
+name: TeaserImage
+key: teaserimage
+content-length: 58
+
+<image mediaid="{E46EEDF8-69F9-486B-AD7F-200D9CA59C01}" />
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 42
+
+Satzung der Sitecore Usergroup Detuschland
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3b11d956-7d64-4065-85f6-4c45693bf4c8
+152ab0ee-8a75-4d7a-a53a-d7b9cddced80
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091323Z
+20160525T093438Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

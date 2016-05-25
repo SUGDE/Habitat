@@ -33,8 +33,30 @@ content-length: 58
 ----version----
 language: de-DE
 version: 1
-revision: c31c2538-6686-4df8-b41a-27e4d929af1b
+revision: 6d066595-9fc1-4f05-9697-cbadad4351f4
 
+----field----
+field: {3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}
+name: Title
+key: title
+content-length: 40
+
+Rückblick: 2. Sitecore Usergroup Treffen
+----field----
+field: {7C7EA1D5-BF8A-435B-91D3-8A809A1BF3D2}
+name: Text
+key: text
+content-length: 1017
+
+<p style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">Im Mai 2015 kam die&nbsp;Sitecore Usergroup in Dresden zusammen.</p>
+<p style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">Inhaltlich gab es folgende Schwerpunkte:</p>
+<ul style="color: #666666; margin-bottom: 10px; background-color: #f5f5f5;">
+    <li>Vernetzt ans Ziel &ndash; die neue Website der Dresdner Verkehrsbetriebe AG (Richard Schulze, DVB AG und Axel P&ouml;tzsch, webit!)</li>
+    <li>Sitecore Health &ndash; Monitoring und Stabilit&auml;t (Maksym Ponomarenko, netzkern)</li>
+    <li>Zukunft der Usergroup (Christopher Wojciech, netzkern)</li>
+    <li style="margin-bottom: 0px;">Sitecore auf Microsoft Azure (Michael Steinforth, .comspace</li>
+</ul>
+<p style="color: #666666; margin-bottom: 12px; background-color: #f5f5f5;">Dem offiziellen Programm folgte&nbsp;eine Stadtbesichtigung der Dresdner Altstadt bei herrlichem Wetter und ein&nbsp;gemeinsames&nbsp;Abendessen in ungezwungener Atmosph&auml;re.</p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +84,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c31c2538-6686-4df8-b41a-27e4d929af1b
+6d066595-9fc1-4f05-9697-cbadad4351f4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091359Z
+20160525T091716Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -10,6 +10,13 @@ template: {898DD929-0775-47B6-83A2-B954F50253E7}
 templatekey: Ico Teaser
 
 ----field----
+field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
+name: IcoClass
+key: icoclass
+content-length: 17
+
+pe-4x pe-7s-map-2
+----field----
 field: {E8AB122C-6F54-4D4E-AEC6-F81ADDC558FC}
 name: TeaserLink
 key: teaserlink
@@ -19,8 +26,26 @@ content-length: 105
 ----version----
 language: de-DE
 version: 1
-revision: 2ace3233-3237-4c44-9d7f-71997eeeecc7
+revision: ea159da2-7170-437f-bed0-ef27afe6c177
 
+----field----
+field: {4A59D072-5B41-4A79-A157-2B2CCAC10F2B}
+name: TeaserTitle
+key: teasertitle
+content-length: 9
+
+ANSCHRIFT
+----field----
+field: {13D97A52-7C4E-407C-960D-FADDE8A3C1B1}
+name: TeaserSummary
+key: teasersummary
+content-length: 59
+
+Altes Mädchen</br>
+
+Lagerstraße 28b</br>
+
+20357 Hamburg
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +73,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2ace3233-3237-4c44-9d7f-71997eeeecc7
+ea159da2-7170-437f-bed0-ef27afe6c177
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091430Z
+20160525T094105Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -86,13 +111,6 @@ Altes Mädchen</br>
 Lagerstraße 28b</br>
 
 20357 Hamburg
-----field----
-field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
-name: IcoClass
-key: icoclass
-content-length: 17
-
-pe-4x pe-7s-map-2
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

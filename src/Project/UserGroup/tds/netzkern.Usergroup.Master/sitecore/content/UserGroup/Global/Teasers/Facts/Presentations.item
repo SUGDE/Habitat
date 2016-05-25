@@ -9,6 +9,13 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {898DD929-0775-47B6-83A2-B954F50253E7}
 templatekey: Ico Teaser
 
+----field----
+field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
+name: IcoClass
+key: icoclass
+content-length: 23
+
+pe pe-4x pe-7s-display2
 ----version----
 language: de-DE
 version: 1
@@ -75,13 +82,6 @@ key: teasersummary
 content-length: 13
 
 Presentations
-----field----
-field: {3B14FCF1-F30C-4339-9F78-08218931C6C4}
-name: IcoClass
-key: icoclass
-content-length: 23
-
-pe pe-4x pe-7s-display2
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

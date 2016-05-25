@@ -12,8 +12,29 @@ templatekey: Presenter
 ----version----
 language: de-DE
 version: 1
-revision: e52e7109-3dbc-4a07-916c-6ff9e478632a
+revision: 63bcf29c-218e-406e-bafc-97795bdb8e25
 
+----field----
+field: {7B931692-6576-4E23-A138-75578BCF1C76}
+name: Name
+key: name
+content-length: 18
+
+Maksym Ponomarenko
+----field----
+field: {1C58CACE-03E3-4ED2-8BC7-EE75D707FF03}
+name: Position
+key: position
+content-length: 16
+
+Sitecore Berater
+----field----
+field: {528AF702-A62E-4D67-8DB5-553612CC95C8}
+name: Company
+key: company
+content-length: 11
+
+netzkern AG
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e52e7109-3dbc-4a07-916c-6ff9e478632a
+63bcf29c-218e-406e-bafc-97795bdb8e25
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091226Z
+20160525T092350Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -33,8 +33,31 @@ content-length: 58
 ----version----
 language: de-DE
 version: 1
-revision: 4dbf3911-cdfd-4b9e-8a52-8a810bc6dc2d
+revision: c0fe16cc-2a91-494c-95f4-131148a53a46
 
+----field----
+field: {3205889F-8EFC-4F2F-AA50-95E7AC7C5D52}
+name: Title
+key: title
+content-length: 40
+
+Rückblick: 3. Sitecore Usergroup Treffen
+----field----
+field: {7C7EA1D5-BF8A-435B-91D3-8A809A1BF3D2}
+name: Text
+key: text
+content-length: 1423
+
+<p style="color: #666666; margin-bottom: 10px; background-color: #ffffff;">Bei der letzten Veranstaltung der Sitecore Usergroup trafen sich rund&nbsp;30 Entwickler, Anwender und Projektmanager aus Sitecore-Agenturen und Unternehmen. Als Veranstaltungsort wurde diesmal das &bdquo;Historische Museum Bielefeld&ldquo; genutzt.</p>
+<p style="color: #666666; margin-bottom: 10px; background-color: #ffffff;">Inhaltlich gab es folgende Schwerpunkte:</p>
+<ul style="color: #666666; margin-bottom: 10px; background-color: #ffffff;">
+    <li>Evaluierung einer Hybris-Anbindung an Sitecore mittels Commerce Connect (Friederike Heinze, .comspace)</li>
+    <li>The good, the bad and the ugly Sitecore module (Maksym Ponomarenko, netzkern)</li>
+    <li>Vorstellung CRM Connector &ndash; MS Dynamics (Friederike Heinze, .comspace)</li>
+    <li>Gemeinsamer Wissens- und Erfahrungsaustausch</li>
+    <li style="margin-bottom: 0px;">Kennenlernen und Vernetzung der SUGDE-Teilnehmer</li>
+</ul>
+<p style="color: #666666; margin-bottom: 12px; background-color: #ffffff;">Nach dem offiziellen Programm gab es eine F&uuml;hrung in der historischen Produktionsst&auml;tte der Bielefelder W&auml;schefabrik und anschlie&szlig;end ein gemeinsames Abendessen. Alle Teilnehmer waren sich einig, dieses Format zuk&uuml;nftig weiter inhaltlich voranzutreiben und weiterhin Ihre Ideen mit in die Gestaltung der Usergroup einflie&szlig;en zu lassen.</p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +85,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4dbf3911-cdfd-4b9e-8a52-8a810bc6dc2d
+c0fe16cc-2a91-494c-95f4-131148a53a46
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160519T091406Z
+20160525T093928Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
