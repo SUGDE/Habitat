@@ -134,6 +134,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\css\fonts-awesome.css" />
+    <Content Include="Assets\img\cropped-SUGDE-Icon-180x180.png" />
+    <Content Include="Assets\img\cropped-SUGDE-Icon-192x192.png" />
+    <Content Include="Assets\img\cropped-SUGDE-Icon-270x270.png" />
+    <Content Include="Assets\img\cropped-SUGDE-Icon-32x32.png" />
     <Content Include="Content\Styles\UserGroup\dashicons.min.css" />
     <Content Include="Assets\css\admin-bar-rtl.css" />
     <Content Include="Assets\css\admin-bar-rtl.min.css" />

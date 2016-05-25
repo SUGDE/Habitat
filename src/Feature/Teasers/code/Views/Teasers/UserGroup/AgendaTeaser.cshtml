@@ -33,7 +33,7 @@
                                 }
 
                                 DateField timefield = (DateField)elementItem.Fields[Templates.AccordionElementTeaser.Fields.Time];
-                                var time = timefield.DateTime.ToString("hh:mmmm");
+                                string time = Sitecore.DateUtil.ToServerTime(timefield.DateTime).ToString("HH:mmmm"); 
 
                             <div class="panel panel-default">
 
