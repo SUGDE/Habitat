@@ -1224,11 +1224,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Project\z.netzkern.UserGroup.DevSettings.config">
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\UserGroup\Layouts\Default.cshtml" />
   </ItemGroup>
   <ItemGroup>
